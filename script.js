@@ -63,62 +63,42 @@ if(asciiCanvas){
   ];
 
   let mouse = {x:-1000, y:-1000};
-  let prevCell = {c:-1, r:-1};
-  let commandsGrid = [];
+  const chars = ['@','#','$','%','&','*','+','=','-','.','/','?','~'];
+  const particles = [];
 
-  function fillGrid(){
-    const cols = Math.floor((asciiCanvas.width/dpr) / 80);
-    const rows = Math.floor((asciiCanvas.height/dpr) / 30);
-    commandsGrid = [];
-    for(let r=0;r<rows;r++){
-      commandsGrid[r] = [];
-      for(let c=0;c<cols;c++){
-        commandsGrid[r][c] = commands[Math.floor(Math.random()*commands.length)];
-      }
-    }
+  function spawn(x,y){
+    particles.push({
+      x: x,
+      y: y,
+      vx: (Math.random()-0.5) * 0.6,
+      vy: - (1 + Math.random() * 1.2),
+      life: 60 + Math.floor(Math.random()*40),
+      char: chars[Math.floor(Math.random()*chars.length)],
+      size: 10 + Math.random()*10
+    });
   }
 
-  window.addEventListener('mousemove', e => {
-    mouse.x = e.clientX; mouse.y = e.clientY;
-    const cell = {c: Math.floor(mouse.x/80), r: Math.floor(mouse.y/30)};
-    if(cell.c !== prevCell.c || cell.r !== prevCell.r){
-      prevCell = cell;
-      fillGrid();
-    }
-  });
-  window.addEventListener('touchmove', e => {
-    if(e.touches && e.touches[0]){
-      mouse.x = e.touches[0].clientX; mouse.y = e.touches[0].clientY;
-      const cell = {c: Math.floor(mouse.x/80), r: Math.floor(mouse.y/30)};
-      if(cell.c !== prevCell.c || cell.r !== prevCell.r){
-        prevCell = cell;
-        fillGrid();
-      }
-    }
-  }, {passive:true});
+  window.addEventListener('mousemove', e => spawn(e.clientX, e.clientY));
+  window.addEventListener('touchmove', e => { if(e.touches && e.touches[0]) spawn(e.touches[0].clientX, e.touches[0].clientY); }, {passive:true});
 
   function animate(){
     ctx.clearRect(0,0,asciiCanvas.width/dpr, asciiCanvas.height/dpr);
-    const cols = Math.floor((asciiCanvas.width/dpr) / 80);
-    const rows = Math.floor((asciiCanvas.height/dpr) / 30);
-    for(let r=0;r<rows;r++){
-      for(let c=0;c<cols;c++){
-        const x = c * 80 + 10;
-        const y = r * 30 + 20;
-        const dx = x - mouse.x;
-        const dy = y - mouse.y;
-        if(Math.hypot(dx,dy) < 80) continue;
-        const cmd = (commandsGrid[r] && commandsGrid[r][c]) || '';
-        ctx.globalAlpha = 0.6;
-        ctx.fillStyle = 'rgba(150,160,190,0.6)';
-        ctx.font = '14px monospace';
-        ctx.fillText(cmd, x, y);
-      }
+    for(let i = particles.length - 1; i >= 0; i--){
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.02; // gravity-like slow down
+      p.life--;
+      const alpha = Math.max(0, p.life / 100);
+      ctx.globalAlpha = alpha * 0.95;
+      ctx.fillStyle = 'rgba(150,160,190,0.95)';
+      ctx.font = `${p.size}px monospace`;
+      ctx.fillText(p.char, p.x, p.y);
+      if(p.life <= 0) particles.splice(i,1);
     }
     ctx.globalAlpha = 1;
     requestAnimationFrame(animate);
   }
-  fillGrid();
   animate();
 }
 
