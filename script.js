@@ -63,8 +63,39 @@ if(asciiCanvas){
   ];
 
   let mouse = {x:-1000, y:-1000};
-  window.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
-  window.addEventListener('touchmove', e => { if(e.touches && e.touches[0]) { mouse.x = e.touches[0].clientX; mouse.y = e.touches[0].clientY; } }, {passive:true});
+  let prevCell = {c:-1, r:-1};
+  let commandsGrid = [];
+
+  function fillGrid(){
+    const cols = Math.floor((asciiCanvas.width/dpr) / 80);
+    const rows = Math.floor((asciiCanvas.height/dpr) / 30);
+    commandsGrid = [];
+    for(let r=0;r<rows;r++){
+      commandsGrid[r] = [];
+      for(let c=0;c<cols;c++){
+        commandsGrid[r][c] = commands[Math.floor(Math.random()*commands.length)];
+      }
+    }
+  }
+
+  window.addEventListener('mousemove', e => {
+    mouse.x = e.clientX; mouse.y = e.clientY;
+    const cell = {c: Math.floor(mouse.x/80), r: Math.floor(mouse.y/30)};
+    if(cell.c !== prevCell.c || cell.r !== prevCell.r){
+      prevCell = cell;
+      fillGrid();
+    }
+  });
+  window.addEventListener('touchmove', e => {
+    if(e.touches && e.touches[0]){
+      mouse.x = e.touches[0].clientX; mouse.y = e.touches[0].clientY;
+      const cell = {c: Math.floor(mouse.x/80), r: Math.floor(mouse.y/30)};
+      if(cell.c !== prevCell.c || cell.r !== prevCell.r){
+        prevCell = cell;
+        fillGrid();
+      }
+    }
+  }, {passive:true});
 
   function animate(){
     ctx.clearRect(0,0,asciiCanvas.width/dpr, asciiCanvas.height/dpr);
@@ -76,8 +107,8 @@ if(asciiCanvas){
         const y = r * 30 + 20;
         const dx = x - mouse.x;
         const dy = y - mouse.y;
-        if(Math.hypot(dx,dy) < 80) continue; // leave empty around cursor
-        const cmd = commands[Math.floor(Math.random()*commands.length)];
+        if(Math.hypot(dx,dy) < 80) continue;
+        const cmd = (commandsGrid[r] && commandsGrid[r][c]) || '';
         ctx.globalAlpha = 0.6;
         ctx.fillStyle = 'rgba(150,160,190,0.6)';
         ctx.font = '14px monospace';
@@ -87,6 +118,7 @@ if(asciiCanvas){
     ctx.globalAlpha = 1;
     requestAnimationFrame(animate);
   }
+  fillGrid();
   animate();
 }
 
