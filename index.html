@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Julian Le Gallic — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Bonjour, je suis Julian</h1>
+            <p class="lead">Étudiant en BTS SIO — développeur en devenir. Je crée des sites clairs, accessibles et agréables à utiliser.</p>
+            <div class="hero-cta">
+              <a class="btn primary" href="CV.html">Voir mon CV</a>
+              <a class="btn ghost" href="#projects">Mes projets</a>
+            </div>
+          </div>
+          <div class="hero-image" aria-hidden="true">
+            <img src="51110.png" alt="Photo de profil ou illustration"/>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h2>À propos</h2>
+        <p>Je suis étudiant en BTS Services Informatiques aux Organisations. Passionné par le web, j'aime concevoir des interfaces claires, responsive et accessibles.</p>
+      </section>
+
+      <section id="projects" class="container projects">
+        <h2>Projets récents</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Projet 1</h3>
+            <p>Courte description du projet — technologies utilisées et rôle.</p>
+            <a class="card-link" href="#">En savoir plus</a>
+          </article>
+          <article class="card">
+            <h3>Projet 2</h3>
+            <p>Courte description du projet — technologies utilisées et rôle.</p>
+            <a class="card-link" href="#">En savoir plus</a>
+          </article>
+          <article class="card">
+            <h3>Projet 3</h3>
+            <p>Courte description du projet — technologies utilisées et rôle.</p>
+            <a class="card-link" href="#">En savoir plus</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <p>Envie d'échanger ? Envoie-moi un message via email ou télécharge mon CV.</p>
+        <p><a class="btn" href="CV Julian LE GALLIC.pdf" target="_blank">Télécharger le CV (PDF)</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year"></span> Julian Le Gallic — Tous droits réservés</small>
+        <nav class="social">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
