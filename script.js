@@ -34,17 +34,60 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 
 
 
+/* ASCII background that follows the cursor */
+const asciiCanvas = document.getElementById('asciiCanvas');
+if(asciiCanvas){
+  const ctx = asciiCanvas.getContext('2d');
+  let dpr = window.devicePixelRatio || 1;
+  function resizeCanvas(){
+    dpr = window.devicePixelRatio || 1;
+    asciiCanvas.width = Math.floor(window.innerWidth * dpr);
+    asciiCanvas.height = Math.floor(window.innerHeight * dpr);
+    asciiCanvas.style.width = window.innerWidth + 'px';
+    asciiCanvas.style.height = window.innerHeight + 'px';
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
 
+  const chars = ['@','#','$','%','&','*','+','=','-','.','/','?','~'];
+  const particles = [];
 
+  function spawn(x,y){
+    particles.push({
+      x: x,
+      y: y,
+      vx: (Math.random()-0.5) * 0.6,
+      vy: - (1 + Math.random() * 1.2),
+      life: 60 + Math.floor(Math.random()*40),
+      char: chars[Math.floor(Math.random()*chars.length)],
+      size: 10 + Math.random()*10
+    });
+  }
 
+  window.addEventListener('mousemove', e => spawn(e.clientX, e.clientY));
+  window.addEventListener('touchmove', e => { if(e.touches && e.touches[0]) spawn(e.touches[0].clientX, e.touches[0].clientY); }, {passive:true});
 
-
-
-
-
-
-
-
+  function animate(){
+    ctx.clearRect(0,0,asciiCanvas.width/dpr, asciiCanvas.height/dpr);
+    for(let i = particles.length - 1; i >= 0; i--){
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.02; // gravity-like slow down
+      p.life--;
+      const alpha = Math.max(0, p.life / 100);
+      ctx.globalAlpha = alpha * 0.95;
+      ctx.fillStyle = 'rgba(150,160,190,0.95)';
+      ctx.font = `${p.size}px monospace`;
+      ctx.fillText(p.char, p.x, p.y);
+      if(p.life <= 0) particles.splice(i,1);
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
 
 
 
