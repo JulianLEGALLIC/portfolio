@@ -13,9 +13,6 @@
     <canvas id="asciiCanvas" aria-hidden="true"></canvas>
     <header class="site-header">
       <div class="container header-inner">
-        <div class="brand">
-          <a href="index.html" class="logo">Julian <span>Le Gallic</span></a>
-        </div>
         <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
         <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
           <ul>
@@ -28,12 +25,18 @@
       </div>
     </header>
 
+    <section class="hero-title">
+      <div class="container">
+        <h1>Julian Le Gallic</h1>
+      </div>
+    </section>
+
     <main id="main">
       <section class="hero">
         <div class="container hero-inner">
           <div class="hero-text">
-            <h1>Bonjour, je suis Julian</h1>
-            <p class="lead">Étudiant en BTS SIO option SISR. Spécialisé en infrastructure, réseaux et administration système. Je déploie et maintiens des solutions informatiques robustes.</p>
+
+            <p class="lead">Étudiant en BTS SIO option SISR. Spécialisé en infrastructure, réseaux et administration système. Je déploie et maintiens des solutions informatiques durable.</p>
             <div class="hero-cta">
               <a class="btn primary" href="CV.html">Voir mon CV</a>
               <a class="btn ghost" href="#projects">Mes projets</a>
@@ -48,13 +51,15 @@
         <h2>Ma Présentation</h2>
         <div class="presentation-space">
           <!-- Espace pour ta présentation personnalisée -->
-          <p>Ajoute ici ta présentation détaillée, tes expériences, ton parcours...</p>
+          <p>Après un BAC STI2D au lycée Colbert de Lorient, je suis partie à Quimper pour faire un BTS SIO à Chaptal</p>
+          <p>pendant ces deux ans j'ai donc appris à créer administrer un réseau sécurisé en respectant des besoins et des demandes</p>
+          <p>j'ai appris à créer des Vlan, à créer plusieurs sous-réseaux avec une seule adresse réseau en fonction des besoins,</p>
+          <p>créer des comptes utilisateurs avec un serveur Active Directory en mettant en place des restrictions avec les GPO</p>
+          <p> </p>
+          <p>en parallèle de cela, je suis président et administrateur réseau d'une association basée sur la pop culture et le jeux vidéo</p>
+          <p>j'ai organisé plusieurs sorties dans le cadre de conventions telles que la ArToPlay à Nantes,</p>
+          <p>j'ai donc préparé la partie informatique et réseau de l'association pour que tout fonctionne parfaitement arrivé à la convention</p>
         </div>
-      </section>
-
-      <section id="about" class="container about">
-        <h2>À propos</h2>
-        <p>Étudiant en BTS SIO spécialité SISR au lycée Chaptal à Quimper. Intéressé par l'infrastructure informatique, l'administration réseau et l'administration système. Je travaille sur la conception, le déploiement et la maintenance d'infrastructures informatiques.</p>
       </section>
 
       <section id="projects" class="container projects">
@@ -63,21 +68,42 @@
           <article class="card">
             <h3>Configuration Réseau</h3>
             <p>Déploiement et configuration d'une infrastructure réseau avec commutateurs, routeurs Cisco. Intégration de VLAN, configuration de pare-feu.</p>
-            <a class="card-link" href="#">En savoir plus</a>
+            <button class="card-link" type="button" aria-expanded="false">En savoir plus</button>
+            <div class="card-details" hidden>
+              <p>Ce projet consistait à architecturer un réseau d'entreprise 
+              complet en utilisant une gamme de commutateurs Cisco Catalyst et 
+              des routeurs ISR. Les VLANs ont été segmentés par service, et des 
+              ACLs ont été appliquées pour restreindre l'accès inter-VLAN. 
+              Un pare-feu ASA a été configuré avec des règles de filtrage 
+              sortant et un VPN site-à-site vers une succursale distante.</p>
+            </div>
           </article>
           <article class="card">
             <h3>Active Directory</h3>
             <p>Gestion d'annuaire Active Directory : création d'utilisateurs, configuration de GPO, gestion des permissions et politiques de sécurité.</p>
-            <a class="card-link" href="#">En savoir plus</a>
+            <button class="card-link" type="button" aria-expanded="false">En savoir plus</button>
+            <div class="card-details" hidden>
+              <p>Installation d'un domaine Windows Server 2019, structuration
+              de l'OU pour séparer postes de travail et serveurs, création 
+              de comptes et groupes, et déploiement de GPO pour appliquer 
+              des politiques de verrouillage de mot de passe et de redirection
+              de dossier.</p>
+            </div>
           </article>
           <article class="card">
             <h3>Administration Système</h3>
             <p>Maintenance et administration de serveurs Linux (Debian/Ubuntu) et Windows Server. Gestion des services, sauvegarde et monitoring.</p>
-            <a class="card-link" href="#">En savoir plus</a>
+            <button class="card-link" type="button" aria-expanded="false">En savoir plus</button>
+            <div class="card-details" hidden>
+              <p>Sur ce projet, j'ai géré un parc mixte de serveurs. J'ai automatisé
+              les mises à jour avec Ansible, mis en place des scripts de 
+              sauvegarde cron vers un NAS, et configuré Zabbix pour la 
+              surveillance des performances. Les procédures de reprise après 
+              sinistre ont également été testées.</p>
+            </div>
           </article>
         </div>
       </section>
-
       <section id="skills" class="container skills">
         <h2>Veille Technologique</h2>
         <h3>les cartes graphiques</h3>
@@ -87,11 +113,9 @@
 
       <section id="contact" class="container contact">
         <h2>Contact</h2>
-        <p>Envie d'échanger ? Envoie-moi un message via email ou télécharge mon CV.</p>
-        <p>
-          <a class="btn" href="CV Julian LE GALLIC.pdf" target="_blank">Télécharger le CV (PDF)</a>
-          <a href="CV Julian LE GALLIC.pdf" target="_blank" class="pdf-logo"><img src="51110.png" alt="Icône PDF CV"/></a>
-        </p>
+        <p>Envie d'échanger ? Envoie-moi un message via email par SMS</p>
+        <p>Téléphone: 07 68 57 63 00</p>
+        <p>Email: julianlegallic@gmail.com</p>
       </section>
     </main>
 

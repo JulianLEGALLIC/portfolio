@@ -32,6 +32,24 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
   });
 });
 
+// Expand/collapse project cards when the button is clicked
+document.querySelectorAll('button.card-link').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const details = btn.nextElementSibling;
+    if(!details || !details.classList.contains('card-details')) return;
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    if(expanded){
+      details.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+      btn.textContent = 'En savoir plus';
+    } else {
+      details.hidden = false;
+      btn.setAttribute('aria-expanded', 'true');
+      btn.textContent = 'Voir moins';
+    }
+  });
+});
+
 
 
 /* ASCII background that follows the cursor */

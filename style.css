@@ -32,6 +32,19 @@ body{
 .logo{font-weight:700;color:var(--text);text-decoration:none;font-size:1.05rem}
 .logo span{color:var(--accent);font-weight:600}
 
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+
+  text-shadow:
+    0 0 1px #7f1e6c,
+    0 0 5px #7f1e6c,
+    0 0 10px #7f1e6c,
+    0 0 10px #7f1e6c;
+}
+
 .nav-toggle{display:none;background:none;border:1px solid transparent;font-size:20px;padding:8px;border-radius:6px;color:var(--muted)}
 
 .primary-nav ul{list-style:none;display:flex;gap:18px;margin:0;padding:0}
@@ -67,6 +80,25 @@ h2{margin-top:0;color:var(--text)}
 .card h3{margin:0 0 8px;color:var(--text)}
 .card p{color:var(--muted);margin-bottom:12px}
 .card-link{color:var(--accent);text-decoration:none;font-weight:600}
+button.card-link{
+  background:none;
+  border:none;
+  padding:0;
+  font:inherit;
+  cursor:pointer;
+}
+.card-details{
+  margin-top:12px;
+  color:var(--text);
+  font-size:0.95rem;
+  overflow:hidden;
+  max-height:0;
+  transition:max-height 0.3s ease;
+}
+.card-details:not([hidden]){
+  /* allow contents to expand, set a high max-height to accommodate text */
+  max-height:400px;
+}
 
 /* Footer */
 .site-footer{padding:20px 0;background:transparent;position:relative;z-index:1}
