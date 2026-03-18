@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AMD — Veille Technologique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html#about">À propos</a></li>
+            <li><a href="index.html#projects">Projets</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="veille techno.html">Veille Techno</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>AMD</h1>
+        <p class="lead">Cartes graphiques AMD pour usage personnel et professionnel.</p>
+
+        <div class="split">
+          <div class="card">
+            <h3>Personnel</h3>
+            <p>La série Radeon RX 7000, introduite en décembre 2022, a vu l'ajout de plusieurs modèles en 2023 et 2024.</p>
+            <p><strong>Cartes de bureau :</strong></p>
+            <ul>
+              <li>Radeon RX 7600 (mai 2023) — 8 Go GDDR6, adaptée en 1080p</li>
+              <li>Radeon RX 7700 XT (septembre 2023) — 12 Go GDDR6, cible le jeu en 1440p</li>
+              <li>Radeon RX 7800 XT (septembre 2023) — 16 Go GDDR6, performances solides en 1440p et 4K</li>
+              <li>Radeon RX 7900 GRE (juillet 2023 en Chine / février 2024 à l'international) — version optimisée de la RX 7900 XT</li>
+              <li>Radeon RX 7600 XT (janvier 2024) — amélioration de la RX 7600, 16 Go GDDR6</li>
+            </ul>
+            <p><strong>Cartes mobiles :</strong></p>
+            <ul>
+              <li>Radeon RX 7600M / 7600M XT (janvier 2023) — performance/efficacité pour portable</li>
+              <li>Radeon RX 7700S / 7600S (janvier 2023) — pour portables fins et légers</li>
+              <li>Radeon RX 7800M (septembre 2024) — entre la RX 7600M XT et la RX 7900M</li>
+              <li>Radeon RX 7900M (octobre 2023) — performances proches des modèles de bureau</li>
+            </ul>
+            <p><strong>Série Radeon RX 9000 (mars 2025) :</strong> basée sur RDNA 4, introduit FSR 4, un upscaling IA avancé.</p>
+          </div>
+          <div class="card">
+            <h3>Professionnel</h3>
+            <p>Radeon Pro / Instinct : rendu, CAO, visualisation et IA.</p>
+            <p>Modèles haut de gamme :</p>
+            <ul>
+              <li>Radeon PRO W7900 (2022) — 96 unités de calcul, 48 Go GDDR6 ECC, 61 TFLOPS FP32</li>
+              <li>Radeon PRO W7800 (2022) — 70 unités de calcul, 32 Go GDDR6 ECC, 45 TFLOPS FP32</li>
+              <li>Radeon PRO W7700 (2022) — 48 unités de calcul, 16 Go GDDR6, 28,3 TFLOPS FP32</li>
+              <li>Radeon PRO W7600 (2022) — 32 unités de calcul, 8 Go GDDR6, 20 TFLOPS FP32</li>
+              <li>Radeon PRO W7500 (2022) — 28 unités de calcul, 8 Go GDDR6, 12,2 TFLOPS FP32</li>
+            </ul>
+            <p>Ces cartes prennent en charge la DisplayPort 2.1, le codage/décodage AV1, et sont certifiées pour des applications professionnelles comme SOLIDWORKS, Autodesk Maya, Blender et DaVinci Resolve.</p>
+            <p>Radeon AI Pro R9700 (Computex 2025) : axée sur les charges de travail d'IA.</p>
+            <ul>
+              <li>128 accélérateurs IA</li>
+              <li>32 Go GDDR6</li>
+              <li>PCIe Gen5</li>
+              <li>96 TFLOPS FP16 / jusqu'à 1 531 TOPS en inférence IA</li>
+              <li>Consommation ≈ 300 W</li>
+              <li>Optimisée pour entraînement LLM, simulation et rendu IA</li>
+              <li>Support ROCm sur Linux (support Windows prévu)</li>
+            </ul>
+          </div>
+        </div>
+
+        <p style="margin-top:2rem;"><a href="veille techno.html" class="btn ghost">← Retour à la veille</a></p>
+
+        <section aria-label="Flux RSS" style="margin-top:1.5rem;">
+          <h2>Flux RSS</h2>
+          <div class="rss-grid">
+            <div class="rss-feed" data-feed-url="./feed-amd.xml">
+              <h3>AMD (NewsAPI)</h3>
+              <p class="rss-source">Source : Articles en temps réel</p>
+              <div class="rss-entries">
+                <p class="rss-loading">Chargement des dernières actualités…</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

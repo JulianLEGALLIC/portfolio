@@ -1,0 +1,249 @@
+NVIDIA:
+
+
+professionnels:
+
+·  NVIDIA RTX 4000 SFF Ada Generation (mars 2023) : cette carte est compactes, possède 6 144 cœurs CUDA, 20 Go de mémoire vidéo  en GDDR6 et un TDP de 70 W.
+
+1475,85€ sur Amazon
+
+​
+
+·  NVIDIA RTX 4000 Ada Generation (août 2023) : Avec les mêmes 6 144 cœurs CUDA et 20 Go de GDDR6, cette version standard offre des fréquences plus élevées et un TDP de 130 W, convenant aux stations de travail classiques.
+
+​
+
+·  NVIDIA RTX 4500 Ada Generation : Dotée de 7 680 cœurs CUDA, 24 Go de mémoire GDDR6 et un TDP de 210 W, elle cible les professionnels nécessitant des performances supérieures pour des applications exigeantes.
+
+​
+
+·  NVIDIA RTX 5000 Ada Generation : Avec 12 800 cœurs CUDA, 32 Go de mémoire GDDR6 et un TDP de 250 W, cette carte est adaptée aux tâches de rendu 3D complexes et aux simulations avancées.
+
+​
+
+·  NVIDIA RTX 5880 Ada Generation (janvier 2024) : Le modèle haut de gamme offrant 14 080 cœurs CUDA, 48 Go de mémoire GDDR6 et un TDP de 285 W, destiné aux charges de travail les plus intensives.
+
+personnels:
+
+  Présentée au CES 2025, la série RTX 50 introduit l'architecture Blackwell, mettant l'accent sur l'IA et le rendu neuronal
+
+​​
+
+  RTX 5090 : Carte haut de gamme avec 21 760 cœurs CUDA, 32 Go de mémoire GDDR7 et un TDP de 575 W.
+
+​
+
+  RTX 5080 : Dotée de 10 752 cœurs CUDA, 16 Go de mémoire GDDR7 et un TDP de 360 W.
+
+​
+
+​  RTX 5070 Ti et RTX 5070 : Respectivement avec 8 960 et 6 144 cœurs CUDA, ciblant le segment milieu de gamme.
+
+​
+
+  RTX 5060 Ti et RTX 5060 : Modèles d'entrée de gamme avec 4 608 cœurs CUDA, utilisant également la mémoire GDDR7.
+
+​
+
+  La série RTX 50 introduit DLSS 4.0, utilisant un modèle de transformateur visuel pour une génération de frames améliorée, permettant jusqu'à 4x plus de frames générées par rapport à
+
+
+
+AMD:
+professionnels
+
+Modèles haut de gamme
+
+  Radeon PRO W7900 : 96 unités de calcul, 48 Go de mémoire GDDR6 ECC, 864 Go/s, performance FP32 de 61 TFLOPS. Conçue pour les charges de travail instance, comme le rendu complexe et les simulations avancées.
+
+​
+
+  Radeon PRO W7800 : 70 unités de calcul, 32 Go de mémoire GDDR6 ECC, 576 Go/s, performance FP32 de 45 TFLOPS. Adaptée aux charges de travail lourdes, comme la modélisation 3D et le rendu haute résolution.
+
+​
+
+  Radeon PRO W7700 : 48 unités de calcul, 16 Go de mémoire GDDR6, 576 Go/s, performance FP32 de 28,3 TFLOPS. idéale pour les applications de création de contenu et de CAO.
+
+​
+
+  Radeon PRO W7600 : 32 unités de calcul, 8 Go de mémoire GDDR6, 288 Go/s, performance FP32 de 20 TFLOPS. Elle convient aux charges de travail professionnelles standard.
+
+​
+
+  Radeon PRO W7500 : 28 unités de calcul, 8 Go de mémoire GDDR6, 173 Go/s, performance FP32 de 12,2 TFLOPS. Elle est conçue pour les tâches de CAO et de conception graphique.
+
+​​
+
+Ces cartes prennent en charge la DisplayPort 2.1, le codage/décodage AV1, et sont certifiées pour des applications professionnelles comme SOLIDWORKS, Autodesk Maya, Blender et DaVinci Resolve.
+
+ 
+
+  Radeon AI Pro R9700 (Architecture RDNA 4)
+
+Présentée lors du Computex 2025, la Radeon AI Pro R9700 est axée sur les charges de travail d'IA 
+
+Spécifications clés :
+
+    128 accélérateurs d'IA
+
+    32 Go de mémoire GDDR6
+
+    Interface PCIe Gen 5
+
+    Performance FP16 de 96 TFLOPS
+
+    Jusqu'à 1 531 TOPS pour l'inférence IA
+
+    Consommation électrique de 300 W
+
+Optimisée pour de l'entraînement de modèles de langage de grande taille (LLM), la simulation et le rendu assisté par IA. Elle prend en charge ROCm sur Linux, avec un support Windows prévu ultérieurement.
+
+
+personnel:
+
+La série Radeon RX 7000, introduite en décembre 2022, a vu l'ajout de plusieurs modèles en 2023 et 2024 :
+
+Cartes de bureau
+
+ 
+
+Radeon RX 7600 (mai 2023) : 8 Go GDDR6, adaptée en 1080p.
+
+ 
+
+​Radeon RX 7700 XT (septembre 2023) : 12 Go GDDR6, cible le jeu en 1440p avec des performances comparable à la RTX 4060 Ti.
+
+​
+
+Radeon RX 7800 XT (septembre 2023) : 16 Go GDDR6, performances solides en 1440p et 4K, en concurrence avec la RTX 4070.
+
+​
+
+Radeon RX 7900 GRE (juillet 2023 en Chine, février 2024 à l'international) : Une version optimisée de la RX 7900 XT 16 Go GDDR6, avec un bon rapport performance/prix.
+
+​
+
+Radeon RX 7600 XT (janvier 2024) : Amélioration de la RX 7600, 16 Go GDDR6.
+
+​
+
+​
+
+Cartes mobiles
+
+AMD a également lancé des versions mobiles de ses GPU pour ordinateurs portables :
+
+​
+
+Radeon RX 7600M / 7600M XT (janvier 2023) : Faite pour les ordinateurs portable, c'est un bon équilibre entre performance et efficacité énergétique.
+
+​
+
+Radeon RX 7700S / 7600S (janvier 2023) : Destinées aux ordinateurs portables fins et légers, avec une consommation énergétique réduite.
+
+​
+
+Radeon RX 7800M (septembre 2024) :Entre la RX 7600M XT et la RX 7900M, elle possède des performances solides pour le jeu en haute résolution.
+
+​
+
+Radeon RX 7900M (octobre 2023) : Des performances proches des modèles de bureau.
+
+​
+
+Série Radeon RX 9000 (mars 2025)
+
+AMD a introduit la série 9000, basée sur l'architecture RDNA 4.
+
+​
+
+Radeon RX 9070 :  16 Go GDDR6, avec de plus hautes performances.
+
+​
+
+Radeon RX 9070 XT : C'est une version optimiser de la RX 9070.
+
+​
+
+Ces cartes introduisent également la technologie FSR 4 (FidelityFX Super Resolution 4), un algorithme d'upscaling basé sur l'intelligence artificielle, exclusif aux GPU RDNA 4.
+
+
+
+intel:
+
+professionnels
+
+Dans le domaine professionnel, Intel a introduit de nouveaux GPU destinés aux stations de travail et aux applications d'IA :
+
+Arc Pro B60 et B50
+
+Date de présentation : Computex 2025
+
+Mémoire :
+
+    B60 : 24 Go de GDDR6
+
+    B50 : 16 Go de GDDR6
+
+Architecture : Xe2 avec extensions XMX pour l'IA et unités de ray tracing avancées.
+
+Ciblage : Professionnels de la création, développeurs en IA, et secteurs tels que l'architecture, l'ingénierie et la construction .
+
+​
+
+Arc Pro B60 Dual GPU (Maxsun)
+
+Présentation : Computex 2025
+
+Configuration : Deux GPU B60, 48 Go
+
+Consommation : Entre 240W et 300W
+
+Prix estimé : Environ 1 000 $
+
+Positionnement : Alternative aux haut de gamme concurrentes, avec une capacité mémoire totale jusqu'à 192 Go avec plusieurs castres.
+
+Intégration graphique et IA
+
+Intel a également présenté sa future plateforme Panther Lake, prévue pour une production en fin 2025 et une disponibilité commerciale début 2026
+
+Gravure : 18A (1,8 nm)
+
+Ciblage : Ordinateurs portables grand public, stations de travail mobiles et matériel de jeu.
+
+​
+
+Améliorations : Amélioration par IA dans des applications comme DaVinci Resolve, Python et Topaz Labs
+
+
+personnel:
+
+Intel a lancé sa nouvelle génération de GPU (Battlemage) grand public, la Arc B580 et la arc B570 :
+
+Arc B580
+
+Date de sortie : 13 décembre 2024
+
+Mémoire : 12 Go de GDDR6
+
+Architecture : Xe2
+
+Performances : presque supérieur à la NVIDIA RTX 4060 et à l'AMD RX 7600 dans certaines conditions, avec une mémoire plus généreuse.
+
+Prix : 249 $
+
+​
+
+Arc B570
+
+Date de sortie : 16 janvier 2025
+
+Mémoire : 10 Go de GDDR6
+
+Prix : 219 $
+
+Positionnement : Alternative économique a la B580, de bonnes performances en 1080p et 1440p .
+
+​
+
+Ces cartes possède des améliorations apportées avec la technologie XeSS 2 (super-échantillonnage), conçus pour améliorer la fluidité et la qualité visuelle des jeux.

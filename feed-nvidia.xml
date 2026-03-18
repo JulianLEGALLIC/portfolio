@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>NVIDIA Veille Technologique</title>
+    <link>https://julianlegallic.github.io/veille%20techno.html</link>
+    <description>Actualités cartes graphiques NVIDIA</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Mar 2026 17:00:54 GMT</lastBuildDate>
+    <item>
+      <title>More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/</link>
+      <description>NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions…</description>
+      <author>Nvidia.com</author>
+      <pubDate>Tue, 17 Mar 2026 17:00:58 GMT</pubDate>
+      <source url="https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/">Nvidia.com</source>
+    </item>
+    <item>
+      <title>NVIDIA Launches RTX PRO 4500 Blackwell Server Edition GPU</title>
+      <link>https://www.techpowerup.com/347466/nvidia-launches-rtx-pro-4500-blackwell-server-edition-gpu</link>
+      <description>NVIDIA has added another graphics card to its server lineup, this time in the form of a passively cooled, single-slot RTX PRO 4500 Blackwell Server Edition GPU. The company positions this release as a highly efficient GPU for compute-dense environments. It co…</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 17 Mar 2026 16:54:09 GMT</pubDate>
+      <source url="https://www.techpowerup.com/347466/nvidia-launches-rtx-pro-4500-blackwell-server-edition-gpu">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>NVIDIA has unveiled DLSS 5 with real-time neural rendering</title>
+      <link>https://www.androidheadlines.com/2026/03/nvidia-has-unveiled-dlss-5-with-real-time-neural-rendering.html</link>
+      <description>NVIDIA has announced DLSS 5 tech, coming this Fall to PC owners with an RTX 50-series GPU. The new tech is powered by AI just like the past versions</description>
+      <author>Android Headlines</author>
+      <pubDate>Tue, 17 Mar 2026 16:48:43 GMT</pubDate>
+      <source url="https://www.androidheadlines.com/2026/03/nvidia-has-unveiled-dlss-5-with-real-time-neural-rendering.html">Android Headlines</source>
+    </item>
+    <item>
+      <title>System76 Introduces New Thelia Mira High Performance Desktop Series</title>
+      <link>https://www.techpowerup.com/347465/system76-introduces-new-thelia-mira-high-performance-desktop-series</link>
+      <description>System76 has refreshed its Thelio Mira desktop series with a focus on better thermals, easier serviceability, and a cleaner overall design, while it&apos;s still all built in-house at the company&apos;s facility in Denver. The new chassis mixes aluminium, steel, and a …</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 17 Mar 2026 16:32:42 GMT</pubDate>
+      <source url="https://www.techpowerup.com/347465/system76-introduces-new-thelia-mira-high-performance-desktop-series">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>HPE adds Blackwell, Rubin systems to Nvidia-backed sovereign AI push</title>
+      <link>https://www.theregister.com/2026/03/17/hpe_adds_blackwell_rubin_systems/</link>
+      <description>Plus: Object storage gets stamp of approval, and it intros network linked &apos;AI Grid&apos;
+HPE has expanded its Nvidia-based AI portfolio with new systems built on Blackwell and upcoming Rubin GPUs, alongside updates to its Alletra Storage MP X10000, which it claims…</description>
+      <author>Theregister.com</author>
+      <pubDate>Tue, 17 Mar 2026 16:22:15 GMT</pubDate>
+      <source url="https://www.theregister.com/2026/03/17/hpe_adds_blackwell_rubin_systems/">Theregister.com</source>
+    </item>
+    <item>
+      <title>Bethesda promises Nvidia&apos;s controversial DLSS 5 AI filters will be &quot;totally optional&quot; for players - Eurogamer</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;id=181024072</link>
+      <description>Bethesda promises Nvidia&apos;s controversial DLSS 5 AI filters will be &quot;totally optional&quot; for playersEurogamer NVIDIA DLSS 5 Delivers AI-Powered Breakthrough In Visual Fidelity For GamesNVIDIA Nvidia faces gamer backlash over &apos;breakthrough&apos; AI graphics featureBBC…</description>
+      <author>Slashdot.org</author>
+      <pubDate>Tue, 17 Mar 2026 16:13:18 GMT</pubDate>
+      <source url="https://slashdot.org/firehose.pl?op=view&amp;id=181024072">Slashdot.org</source>
+    </item>
+    <item>
+      <title>(PR) Supermicro Unveils NVIDIA BlueField-4 STX Storage Server</title>
+      <link>https://www.techpowerup.com/347461/supermicro-unveils-nvidia-bluefield-4-stx-storage-server</link>
+      <description>Supermicro, Inc. (NASDAQ: SMCI), a Total IT Solution Provider for AI, Cloud, Storage, and 5G/Edge, today unveiled one of the industry&apos;s first context memory (CMX) storage server as part of NVIDIA STX reference architecture announced NVIDIA GTC 2026. STX is a …</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 17 Mar 2026 15:56:20 GMT</pubDate>
+      <source url="https://www.techpowerup.com/347461/supermicro-unveils-nvidia-bluefield-4-stx-storage-server">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>“If DLSS 5 Was Shown as a Next-Gen Hardware Reveal and not AI, You Guys Would Be Going Nuts” – Game Dev Hits Back at Anti-AI Crowd - Wccftech</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;id=181023930</link>
+      <description>“If DLSS 5 Was Shown as a Next-Gen Hardware Reveal and not AI, You Guys Would Be Going Nuts” – Game Dev Hits Back at Anti-AI CrowdWccftech NVIDIA DLSS 5 Delivers AI-Powered Breakthrough In Visual Fidelity For GamesNVIDIA Nvidia faces gamer backlash over &apos;brea…</description>
+      <author>Slashdot.org</author>
+      <pubDate>Tue, 17 Mar 2026 15:53:09 GMT</pubDate>
+      <source url="https://slashdot.org/firehose.pl?op=view&amp;id=181023930">Slashdot.org</source>
+    </item>
+    <item>
+      <title>Gamers are right to be disgusted by NVIDIA&apos;s DLSS 5</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;id=181023912</link>
+      <description>You can sum up the gamer response to NVIDIA&apos;s DLSS 5 announcement with the ever-relevant Fallout 4 meme: &quot;Everyone disliked that.&quot; Across social media and Reddit last night, I couldn&apos;t find anyone who&apos;s genuinely positive about the potential for DLSS 5, which…</description>
+      <author>Slashdot.org</author>
+      <pubDate>Tue, 17 Mar 2026 15:52:06 GMT</pubDate>
+      <source url="https://slashdot.org/firehose.pl?op=view&amp;id=181023912">Slashdot.org</source>
+    </item>
+    <item>
+      <title>Supermicro Among First to Unveil NVIDIA BlueField-4 STX Storage Server to Improve AI Inference Performance</title>
+      <link>https://www.prnewswire.co.uk/news-releases/supermicro-among-first-to-unveil-nvidia-bluefield-4-stx-storage-server-to-improve-ai-inference-performance-302716193.html</link>
+      <description>Supermicro illustrates leadership with one of the first Context Memory (CMX) storage servers, built on the NVIDIA STX reference architecture for AI storage. The BlueField-4 STX storage server combines NVIDIA Vera CPU and NVIDIA ConnectX-9 SuperNIC. Supermicro…</description>
+      <author>PR Newswire UK</author>
+      <pubDate>Tue, 17 Mar 2026 15:36:00 GMT</pubDate>
+      <source url="https://www.prnewswire.co.uk/news-releases/supermicro-among-first-to-unveil-nvidia-bluefield-4-stx-storage-server-to-improve-ai-inference-performance-302716193.html">PR Newswire UK</source>
+    </item>
+  </channel>
+</rss>

@@ -50,6 +50,95 @@ document.querySelectorAll('button.card-link').forEach(btn => {
   });
 });
 
+// RSS feed loader (fetch + display items)
+const rssState = new WeakMap();
+
+function formatDate(dateString){
+  try{
+    const dt = new Date(dateString);
+    if(isNaN(dt.getTime())) return '';
+    return dt.toLocaleDateString('fr-FR', {year:'numeric',month:'short',day:'numeric'});
+  }catch(e){
+    return '';
+  }
+}
+
+function createItemElement(title, link, date, source){
+  const li = document.createElement('li');
+  li.className = 'rss-entry';
+  const a = document.createElement('a');
+  a.href = link;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.textContent = title || link;
+  li.appendChild(a);
+  const meta = document.createElement('div');
+  meta.style.fontSize = '0.85rem';
+  meta.style.color = 'var(--muted)';
+  meta.style.marginTop = '0.25rem';
+  meta.textContent = `${formatDate(date)} — ${source}`.trim();
+  li.appendChild(meta);
+  return li;
+}
+
+async function fetchRSS(url){
+  try{
+    const res = await fetch(url);
+    if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    const text = await res.text();
+    const xml = new DOMParser().parseFromString(text, 'application/xml');
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 6);
+    return items.map(item => ({
+      title: item.querySelector('title')?.textContent?.trim() || '',
+      link: item.querySelector('link')?.textContent?.trim() || item.querySelector('link')?.getAttribute('href') || url,
+      date: item.querySelector('pubDate')?.textContent?.trim() || '',
+    }));
+  }catch(err){
+    console.warn('RSS fetch error', url, err);
+    throw err;
+  }
+}
+
+async function loadRSSFeeds(){
+  document.querySelectorAll('.rss-feed').forEach(async feed => {
+    const url = feed.dataset.feedUrl;
+    const entriesContainer = feed.querySelector('.rss-entries');
+    const sourceLink = feed.querySelector('.rss-source a')?.href || url;
+    if(!url || !entriesContainer) return;
+
+    const state = rssState.get(feed) || {seen: new Set()};
+    rssState.set(feed, state);
+
+    const setLoading = (text) => {
+      entriesContainer.innerHTML = `<p class="rss-loading">${text}</p>`;
+    };
+
+    setLoading('Chargement des dernières actualités…');
+
+    try{
+      const items = await fetchRSS(url);
+      if(items.length === 0){
+        setLoading('Aucun article trouvé.');
+        return;
+      }
+
+      entriesContainer.innerHTML = '';
+      items.forEach(item => {
+        if(state.seen.has(item.link)) return;
+        state.seen.add(item.link);
+        entriesContainer.appendChild(createItemElement(item.title, item.link, item.date, sourceLink));
+      });
+    }catch(err){
+      setLoading('Impossible de charger le flux (CORS possible).');
+    }
+  });
+}
+
+// Initial RSS load + refresh every 5 minutes
+window.addEventListener('load', () => {
+  loadRSSFeeds();
+  setInterval(loadRSSFeeds, 1000 * 60 * 5);
+});
 
 
 /* ASCII background that follows the cursor */

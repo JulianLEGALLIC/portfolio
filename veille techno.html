@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Veille Technologique — Julian Le Gallic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html#about">À propos</a></li>
+            <li><a href="index.html#projects">Projets</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="#content">Veille Techno</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>Veille Technologique</h1>
+        <p class="lead">Choisis un constructeur pour approfondir les cartes graphiques personnelles et professionnelles.</p>
+
+        <div class="grid">
+          <a href="intel.html" class="card">
+            <h3>Intel</h3>
+            <p>Découvrir Arc (gaming) et Xe (IA / workstation).</p>
+          </a>
+          <a href="amd.html" class="card">
+            <h3>AMD</h3>
+            <p>Explorer Radeon RX (gaming) et Radeon Pro / Instinct (pro).</p>
+          </a>
+          <a href="nvidia.html" class="card">
+            <h3>NVIDIA</h3>
+            <p>Voir GeForce RTX (gaming) et RTX / A-series (IA, rendu, stations).</p>
+          </a>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Remplir l'année dans le footer
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

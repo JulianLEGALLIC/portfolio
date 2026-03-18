@@ -1,0 +1,32 @@
+name: Générer flux RSS quotidiens
+
+on:
+  schedule:
+    # Tous les jours à 12h (UTC)
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Installer dépendances
+        run: npm install axios
+      
+      - name: Générer flux RSS
+        run: node generate-rss.js ${{ secrets.NEWSAPI_KEY }}
+      
+      - name: Commit et push les changements
+        run: |
+          git config user.name "RSS Generator"
+          git config user.email "rss@portfolio.local"
+          git add feed-*.xml
+          git commit -m "📡 Mise à jour flux RSS" || true
+          git push

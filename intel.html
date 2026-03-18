@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Intel — Veille Technologique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html#about">À propos</a></li>
+            <li><a href="index.html#projects">Projets</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="veille techno.html">Veille Techno</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>Intel</h1>
+        <p class="lead">Cartes graphiques Intel pour usage personnel et professionnel.</p>
+
+        <div class="split">
+          <div class="card">
+            <h3>Personnel</h3>
+            <p>Intel Arc (lancée en 2022) : gaming, création de contenu, et ray tracing.</p>
+            <p>Modèles récents :</p>
+            <ul>
+              <li>Arc A770 (2022) — 32 Go GDDR6, ciblée gaming 1440p</li>
+              <li>Arc A750 (2022) — 16 Go GDDR6, bon rapport performances/prix</li>
+              <li>Arc A580 (2023) — entrée de gamme, 8 Go GDDR6</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Professionnel</h3>
+            <p>Dans le domaine professionnel, Intel a introduit de nouveaux GPU destinés aux stations de travail et aux applications d'IA.</p>
+            <p>Arc Pro B60 et B50 (Computex 2025) :</p>
+            <ul>
+              <li>Arc Pro B60 (Computex 2025) — 24 Go GDDR6, Xe2 + XMX, ciblée IA et rendu, pour créateurs et développeurs</li>
+              <li>Arc Pro B50 (Computex 2025) — 16 Go GDDR6, orientée stations de travail créatives</li>
+            </ul>
+            <p>Arc Pro B60 Dual (Maxsun, Computex 2025) :</p>
+            <ul>
+              <li>2× B60, 48 Go, 240–300 W</li>
+              <li>Prix estimé ≈ 1 000 €</li>
+              <li>Positionnée comme alternative haut de gamme concurrente, jusqu'à 192 Go avec plusieurs cartes</li>
+            </ul>
+            <p>Ces cartes ciblent les professionnels de la création, les développeurs IA, et les secteurs de l'architecture, l'ingénierie et la construction.</p>
+            <p><strong>Intégration graphique et IA :</strong></p>
+            <p>Intel a également présenté sa future plateforme Panther Lake (fin 2025 / début 2026) pour ordinateurs portables, avec des optimisations IA.</p>
+            <ul>
+              <li>Gravure 18A (1,8 nm)</li>
+              <li>Ciblé pour ordinateurs portables grand public, stations de travail mobiles et matériel de jeu</li>
+              <li>Améliorations IA pour des applications comme DaVinci Resolve, Python et Topaz Labs</li>
+            </ul>
+          </div>
+        </div>
+
+        <p style="margin-top:2rem;"><a href="veille techno.html" class="btn ghost">← Retour à la veille</a></p>
+
+        <section aria-label="Flux RSS" style="margin-top:1.5rem;">
+          <h2>Flux RSS</h2>
+          <div class="rss-grid">
+            <div class="rss-feed" data-feed-url="./feed-intel.xml">
+              <h3>Intel (NewsAPI)</h3>
+              <p class="rss-source">Source : Articles en temps réel</p>
+              <div class="rss-entries">
+                <p class="rss-loading">Chargement des dernières actualités…</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
