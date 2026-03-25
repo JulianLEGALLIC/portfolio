@@ -39,5 +39,13 @@ jobs:
           git config user.email "rss@portfolio.local"
           git add feed-*.xml
           git commit -m "📡 Mise à jour flux RSS" || true
-          git pull --rebase origin main
+          echo "=== AVANT PULL ==="
+          git log --oneline -n 3
+          git status
+          git fetch origin
+          git reset --hard origin/main
+          echo "=== APRÈS RESET ==="
+          git log --oneline -n 3
+          git add feed-*.xml
+          git commit -m "📡 Mise à jour flux RSS (push final)" || true
           git push origin main
