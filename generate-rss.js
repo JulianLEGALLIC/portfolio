@@ -21,13 +21,13 @@ if (!API_KEY) {
 const feeds = {
   nvidia: {
     fileName: 'feed-nvidia.xml',
-    keywords: ['NVIDIA RTX', 'NVIDIA GPU', 'NVIDIA graphics'],
+    keywords: ['NVIDIA RTX', 'NVIDIA GPU', 'NVIDIA graphics', 'NVIDIA QUADRO', 'NVIDIA AI PRO'],
     title: 'NVIDIA Veille Technologique',
     description: 'Actualités cartes graphiques NVIDIA'
   },
   amd: {
     fileName: 'feed-amd.xml',
-    keywords: ['AMD Radeon', 'AMD graphics', 'AMD GPU'],
+    keywords: ['AMD Radeon', 'AMD graphics', 'AMD GPU', 'AMD AI PRO'],
     title: 'AMD Veille Technologique',
     description: 'Actualités cartes graphiques AMD'
   },
