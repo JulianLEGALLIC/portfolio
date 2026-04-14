@@ -5,7 +5,88 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques Intel</description>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 12:55:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 12:55:15 GMT</lastBuildDate>
+    <item>
+      <title>Dell XPS 16 (2026) review: A beautiful laptop with compromises</title>
+      <link>https://www.pcworld.com/article/3110951/dell-xps-16-2026-review.html</link>
+      <description>At a glance
+Expert&apos;s Rating
+
+
+Pros
+
+&lt;ul&gt;
+&lt;li&gt;Great display&lt;/li&gt;
+
+
+
+&lt;li&gt;Powerful, full speakers&lt;/li&gt;
+
+
+
+&lt;li&gt;Long battery life&lt;/li&gt;
+
+
+
+&lt;li&gt;Some improvements to keyboard and trackpad&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+Cons
+
+&lt;ul&gt;
+&lt;li&gt;Lags behind in performance&lt;/li&gt;
+
+
+
+&lt;li&gt;Few …</description>
+      <author>PCWorld</author>
+      <pubDate>Mon, 13 Apr 2026 10:30:00 GMT</pubDate>
+      <source url="https://www.pcworld.com/article/3110951/dell-xps-16-2026-review.html">PCWorld</source>
+    </item>
+    <item>
+      <title>Linux Kernel 7.0 is Out With Improvements Across the Board for Intel, AMD, and Storage</title>
+      <link>https://itsfoss.com/news/linux-kernel-7-0-release/</link>
+      <description>From Nova Lake audio to autonomous XFS repairs and Zen 6 prep, this release covers a lot of ground.</description>
+      <author>Itsfoss.com</author>
+      <pubDate>Mon, 13 Apr 2026 04:08:07 GMT</pubDate>
+      <source url="https://itsfoss.com/news/linux-kernel-7-0-release/">Itsfoss.com</source>
+    </item>
+    <item>
+      <title>Linux 7.0: faster swap, Intel TSX &amp; Rock Band 4 controller support</title>
+      <link>https://www.omgubuntu.co.uk/2026/04/linux-7-0-kernel-features</link>
+      <description>Linus Torvalds has released Linux 7.0, the kernel version that Ubuntu 26.04 LTS runs on. Linux 7.0 includes a new standardised filesystem error reporting system, faster swap performance and hardware video decoding for a crop of Rockchip ARM64 single-board com…</description>
+      <author>Omgubuntu.co.uk</author>
+      <pubDate>Sun, 12 Apr 2026 22:27:49 GMT</pubDate>
+      <source url="https://www.omgubuntu.co.uk/2026/04/linux-7-0-kernel-features">Omgubuntu.co.uk</source>
+    </item>
+    <item>
+      <title>lexaloud added to PyPI</title>
+      <link>https://pypi.org/project/lexaloud/</link>
+      <description>A local, private Linux text-to-speech tool. Select text in any app, press a hotkey, hear it read by Kokoro-82M on your GPU.</description>
+      <author>Pypi.org</author>
+      <pubDate>Sun, 12 Apr 2026 18:48:44 GMT</pubDate>
+      <source url="https://pypi.org/project/lexaloud/">Pypi.org</source>
+    </item>
+    <item>
+      <title>Crimson Desert runs better on Intel Arc GPUs at Ultra than Medium — and XeSS 3.0 makes things worse</title>
+      <link>https://www.notebookcheck.net/Crimson-Desert-runs-better-on-Intel-Arc-GPUs-at-Ultra-than-Medium-and-XeSS-3-0-makes-things-worse.1272113.0.html</link>
+      <description>Crimson Desert initially blocked Intel Arc GPUs entirely, but recent patches have restored compatibility. New benchmarks on the Intel Arc Pro B70 reveal a playable experience, though with some surprising caveats.</description>
+      <author>Notebookcheck.net</author>
+      <pubDate>Sun, 12 Apr 2026 14:06:00 GMT</pubDate>
+      <source url="https://www.notebookcheck.net/Crimson-Desert-runs-better-on-Intel-Arc-GPUs-at-Ultra-than-Medium-and-XeSS-3-0-makes-things-worse.1272113.0.html">Notebookcheck.net</source>
+    </item>
+    <item>
+      <title>The New Zenbook A16 Is the Fastest Snapdragon Laptop Yet</title>
+      <link>https://the-gadgeteer.com/2026/04/12/the-new-zenbook-a16-is-the-fastest-snapdragon-laptop-yet/</link>
+      <description>ASUS recently launched five new Zenbook laptops across its A-series, S-series, and standard Zenbook lines. They come in 14-inch and 16-inch sizes with processors from Qualcomm, Intel, and AMD. All five are Copilot+ PCs, and all use some form of ASUS’s Ceralum…</description>
+      <author>The Gadgeteer</author>
+      <pubDate>Sun, 12 Apr 2026 13:00:02 GMT</pubDate>
+      <source url="https://the-gadgeteer.com/2026/04/12/the-new-zenbook-a16-is-the-fastest-snapdragon-laptop-yet/">The Gadgeteer</source>
+    </item>
     <item>
       <title>Intel&apos;s new Arc Pro B50 is a fresh challenger in the graphics arena</title>
       <link>https://www.creativebloq.com/tech/laptops/intel-arc-pro-b50-review-a-new-challenger-enters-the-arena</link>
@@ -37,54 +118,6 @@
       <author>TweakTown</author>
       <pubDate>Sat, 11 Apr 2026 17:02:02 GMT</pubDate>
       <source url="https://www.tweaktown.com/news/110977/crimson-desert-officially-receives-intel-arc-gpu-support-and-xess-3-compatibility-23-days-after-launch/index.html">TweakTown</source>
-    </item>
-    <item>
-      <title>Best Laptops 2026: Our benchmarked picks for productivity, portability, and battery life</title>
-      <link>https://www.tomshardware.com/laptops/best-laptops</link>
-      <description>We test dozens of laptops a year for their performance, screen quality, and battery life, to find the best laptops right now across Windows, macOS, Intel, AMD, and Qualcomm notebooks.</description>
-      <author>Tom&apos;s Hardware UK</author>
-      <pubDate>Sat, 11 Apr 2026 14:35:03 GMT</pubDate>
-      <source url="https://www.tomshardware.com/laptops/best-laptops">Tom&apos;s Hardware UK</source>
-    </item>
-    <item>
-      <title>Crimson Desert Officially Receives Intel Arc GPU And XeSS 3.0 Frame Generation Support</title>
-      <link>https://wccftech.com/crimson-desert-officially-receives-intel-arc-gpu-and-xess-3-0-frame-generation-support/</link>
-      <description>Finally, the game has received official support for Intel Arc GPUs as well as its upscaling technology and Frame Gen feature. Pearl Abyss Adds Support for Intel Arc GPUs, XeSS 3.0, and Frame Generation for Crimson Desert Three Weeks After Launch With the late…</description>
-      <author>Wccftech</author>
-      <pubDate>Sat, 11 Apr 2026 11:41:50 GMT</pubDate>
-      <source url="https://wccftech.com/crimson-desert-officially-receives-intel-arc-gpu-and-xess-3-0-frame-generation-support/">Wccftech</source>
-    </item>
-    <item>
-      <title>Warriors get tuned up, but lose</title>
-      <link>https://www.goldenstateofmind.com/warriors-scores-results/110023/warriors-kings-scores-recap-tune-up-steph-curry-devin-carter</link>
-      <description>A lot of good and a lot of bad.</description>
-      <author>Golden State of Mind</author>
-      <pubDate>Sat, 11 Apr 2026 05:10:32 GMT</pubDate>
-      <source url="https://www.goldenstateofmind.com/warriors-scores-results/110023/warriors-kings-scores-recap-tune-up-steph-curry-devin-carter">Golden State of Mind</source>
-    </item>
-    <item>
-      <title>ONEXPLAYER Super V gaming tablet with Intel Panther Lake is now available</title>
-      <link>https://liliputing.com/onexplayer-super-v-gaming-tablet-with-intel-panther-lake-is-now-available/</link>
-      <description>The ONEXPLAYER SUPER V is a Windows tablet with a 14 inch, 2880 x 1800 pixel, 120 Hz OLED display, a detachable keyboard, and an Intel Core Ultra 7 358H Panther Lake processor with Arc B390 integrated graphics. First introduced during CES in January, the tabl…</description>
-      <author>Liliputing</author>
-      <pubDate>Fri, 10 Apr 2026 17:01:24 GMT</pubDate>
-      <source url="https://liliputing.com/onexplayer-super-v-gaming-tablet-with-intel-panther-lake-is-now-available/">Liliputing</source>
-    </item>
-    <item>
-      <title>Acer Swift 16 AI (2026) Review: I Love the Giant OLED Display, but Am Less Enamored With the Oversize Touchpad</title>
-      <link>https://www.cnet.com/tech/computing/acer-swift-16-ai-2026-review-i-love-the-giant-oled-display-but-am-less-enamored-with-the-oversize-touchpad/</link>
-      <description>It&apos;s also rocking an Intel Panther Lake CPU and is exceptionally thin and light for a 16-inch laptop.</description>
-      <author>CNET</author>
-      <pubDate>Fri, 10 Apr 2026 10:01:14 GMT</pubDate>
-      <source url="https://www.cnet.com/tech/computing/acer-swift-16-ai-2026-review-i-love-the-giant-oled-display-but-am-less-enamored-with-the-oversize-touchpad/">CNET</source>
-    </item>
-    <item>
-      <title>Crimson Desert to Get Difficulty Settings, Boss Rematches, and More in Upcoming Updates</title>
-      <link>https://wccftech.com/crimson-desert-difficulty-settings-boss-rematches-update/</link>
-      <description>Following the first few patches, which focused mainly on bug fixes, Pearl Abyss has now outlined a brief roadmap of new content and feature additions coming to Crimson Desert between this month and June. To begin with, the South Korean developer will be addin…</description>
-      <author>Wccftech</author>
-      <pubDate>Fri, 10 Apr 2026 09:00:00 GMT</pubDate>
-      <source url="https://wccftech.com/crimson-desert-difficulty-settings-boss-rematches-update/">Wccftech</source>
     </item>
   </channel>
 </rss>
