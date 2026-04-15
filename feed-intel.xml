@@ -5,7 +5,55 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques Intel</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Apr 2026 12:55:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 12:54:34 GMT</lastBuildDate>
+    <item>
+      <title>tinillm added to PyPI</title>
+      <link>https://pypi.org/project/tinillm/</link>
+      <description>Hardware LLM capability scanner — know what runs on your machine</description>
+      <author>Pypi.org</author>
+      <pubDate>Tue, 14 Apr 2026 10:06:37 GMT</pubDate>
+      <source url="https://pypi.org/project/tinillm/">Pypi.org</source>
+    </item>
+    <item>
+      <title>1440p gaming on Mini PC: GMKtec EVO-T2 with Intel Panther Lake plays AAA games like Red Dead Redemption 2 above 70 FPS</title>
+      <link>https://www.notebookcheck.net/1440p-gaming-on-Mini-PC-GMKtec-EVO-T2-with-Intel-Panther-Lake-plays-AAA-games-like-Red-Dead-Redemption-2-above-70-FPS.1272463.0.html</link>
+      <description>The GMKtec EVO-T2 Intel Panther Lake Mini PC has been tested in both games and synthetic benchmarks. Powered by the 16-core Core Ultra X7 358H Panther Lake processor with the Arc B390 iGPU and 64 GB of RAM, the GMKtec EVO-T2 is reportedly plenty fast for both…</description>
+      <author>Notebookcheck.net</author>
+      <pubDate>Tue, 14 Apr 2026 09:54:00 GMT</pubDate>
+      <source url="https://www.notebookcheck.net/1440p-gaming-on-Mini-PC-GMKtec-EVO-T2-with-Intel-Panther-Lake-plays-AAA-games-like-Red-Dead-Redemption-2-above-70-FPS.1272463.0.html">Notebookcheck.net</source>
+    </item>
+    <item>
+      <title>Intel Prepares &quot;Nova Lake&quot; Desktop APU with 12 Xe3P Cores</title>
+      <link>https://www.techpowerup.com/348209/intel-prepares-nova-lake-desktop-apu-with-12-xe3p-cores</link>
+      <description>Intel&apos;s upcoming Core Ultra 400 Series &quot;Nova Lake-S&quot; desktop processors are set to launch in the second half of this year, marking what seems to be the company&apos;s most ambitious lineup yet. Recently, new rumors have emerged suggesting that Intel is also workin…</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 14 Apr 2026 07:54:08 GMT</pubDate>
+      <source url="https://www.techpowerup.com/348209/intel-prepares-nova-lake-desktop-apu-with-12-xe3p-cores">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>ASRock Intel Arc Pro B65を2製品明らかに</title>
+      <link>https://northwood.blog.fc2.com/blog-entry-13056.html</link>
+      <description>ASRock Introduces Intel Arc Pro B65 Creator and Passive GPUs（Guru3D）ASRock lists Arc Pro B65 Passive and Creator cards with 32GB GDDR6（VideoCardz）Intel Arc Pro B65 Creator 32GB（ASRock）Intel Arc Pro B65 Passive 32GB（ASRock）ASRockはIntel Arc Pro B65搭載製品を2製品明らかにし…</description>
+      <author>Fc2.com</author>
+      <pubDate>Mon, 13 Apr 2026 16:08:24 GMT</pubDate>
+      <source url="https://northwood.blog.fc2.com/blog-entry-13056.html">Fc2.com</source>
+    </item>
+    <item>
+      <title>User Confirms Intel Arc Pro B70 Can Play Crimson Desert, But The Artifacts Are Irksome</title>
+      <link>https://wccftech.com/user-confirms-intel-arc-pro-b70-can-play-crimson-desert/</link>
+      <description>It&apos;s good to see even workstation Intel Arc GPUs being able to play Crimson Desert, but the game shows some weird behavior. Crimson Desert Now Supports Intel Arc Pro B70 Workstation GPU, But Shimmering Ruins the Experience Except on Ultra Settings After nearl…</description>
+      <author>Wccftech</author>
+      <pubDate>Mon, 13 Apr 2026 16:02:58 GMT</pubDate>
+      <source url="https://wccftech.com/user-confirms-intel-arc-pro-b70-can-play-crimson-desert/">Wccftech</source>
+    </item>
+    <item>
+      <title>Xiaomi sets imminent launch date for affordable MacBook Pro rival with Panther Lake</title>
+      <link>https://www.notebookcheck.net/Xiaomi-sets-imminent-launch-date-for-affordable-MacBook-Pro-rival-with-Panther-Lake.1272407.0.html</link>
+      <description>The Redmi Book Pro 2026 series was recently announced as a more affordable laptop line than the Panther Lake Xiaomi Book Pro lineup. With a new announcement, the company has confirmed that the Chinese launch is set for April 21, 2026.</description>
+      <author>Notebookcheck.net</author>
+      <pubDate>Mon, 13 Apr 2026 15:32:00 GMT</pubDate>
+      <source url="https://www.notebookcheck.net/Xiaomi-sets-imminent-launch-date-for-affordable-MacBook-Pro-rival-with-Panther-Lake.1272407.0.html">Notebookcheck.net</source>
+    </item>
     <item>
       <title>Dell XPS 16 (2026) review: A beautiful laptop with compromises</title>
       <link>https://www.pcworld.com/article/3110951/dell-xps-16-2026-review.html</link>
@@ -70,54 +118,6 @@ Cons
       <author>Pypi.org</author>
       <pubDate>Sun, 12 Apr 2026 18:48:44 GMT</pubDate>
       <source url="https://pypi.org/project/lexaloud/">Pypi.org</source>
-    </item>
-    <item>
-      <title>Crimson Desert runs better on Intel Arc GPUs at Ultra than Medium — and XeSS 3.0 makes things worse</title>
-      <link>https://www.notebookcheck.net/Crimson-Desert-runs-better-on-Intel-Arc-GPUs-at-Ultra-than-Medium-and-XeSS-3-0-makes-things-worse.1272113.0.html</link>
-      <description>Crimson Desert initially blocked Intel Arc GPUs entirely, but recent patches have restored compatibility. New benchmarks on the Intel Arc Pro B70 reveal a playable experience, though with some surprising caveats.</description>
-      <author>Notebookcheck.net</author>
-      <pubDate>Sun, 12 Apr 2026 14:06:00 GMT</pubDate>
-      <source url="https://www.notebookcheck.net/Crimson-Desert-runs-better-on-Intel-Arc-GPUs-at-Ultra-than-Medium-and-XeSS-3-0-makes-things-worse.1272113.0.html">Notebookcheck.net</source>
-    </item>
-    <item>
-      <title>The New Zenbook A16 Is the Fastest Snapdragon Laptop Yet</title>
-      <link>https://the-gadgeteer.com/2026/04/12/the-new-zenbook-a16-is-the-fastest-snapdragon-laptop-yet/</link>
-      <description>ASUS recently launched five new Zenbook laptops across its A-series, S-series, and standard Zenbook lines. They come in 14-inch and 16-inch sizes with processors from Qualcomm, Intel, and AMD. All five are Copilot+ PCs, and all use some form of ASUS’s Ceralum…</description>
-      <author>The Gadgeteer</author>
-      <pubDate>Sun, 12 Apr 2026 13:00:02 GMT</pubDate>
-      <source url="https://the-gadgeteer.com/2026/04/12/the-new-zenbook-a16-is-the-fastest-snapdragon-laptop-yet/">The Gadgeteer</source>
-    </item>
-    <item>
-      <title>Intel&apos;s new Arc Pro B50 is a fresh challenger in the graphics arena</title>
-      <link>https://www.creativebloq.com/tech/laptops/intel-arc-pro-b50-review-a-new-challenger-enters-the-arena</link>
-      <description>The Intel Arc Pro B50 is a low-profile workstation GPU with potential, but is outclassed by cheaper cards in some cases.</description>
-      <author>Creative Bloq</author>
-      <pubDate>Sun, 12 Apr 2026 07:00:00 GMT</pubDate>
-      <source url="https://www.creativebloq.com/tech/laptops/intel-arc-pro-b50-review-a-new-challenger-enters-the-arena">Creative Bloq</source>
-    </item>
-    <item>
-      <title>Arc Pro B70で使用されるBMG-G31のダイサイズはおよそ375mm2</title>
-      <link>https://northwood.blog.fc2.com/blog-entry-13052.html</link>
-      <description>Intel BMG-G31 “Big Battlemage” GPU has finally been photographed（VideoCardz）Intel Arc Pro B70 Single Fan 32GB - FULL TEARDOWN（Tech Guy Beau / YouTube）Arc Pro B70には“Battlemage”世代のGPUとしてはより大型の“BMG-G31”が用いられるが、Tech Guy BeauがArc Pro B70 32GBカードの冷却機構を取り除き、“BMG-G31…</description>
-      <author>Fc2.com</author>
-      <pubDate>Sun, 12 Apr 2026 06:22:20 GMT</pubDate>
-      <source url="https://northwood.blog.fc2.com/blog-entry-13052.html">Fc2.com</source>
-    </item>
-    <item>
-      <title>Dell XPS 16 Core Ultra X7 358H review: Out with Nvidia, in with Intel Arc B390</title>
-      <link>https://www.notebookcheck.net/Dell-XPS-16-Core-Ultra-X7-358H-review-Out-with-Nvidia-in-with-Intel-Arc-B390.1264689.0.html</link>
-      <description>Maximizing efficiency over raw power. | For $400 more than the base model, the Core Ultra X7 XPS 16 configuration offers more RAM, more storage, and significantly more performance without needing to up fan noise, power consumption, or temperatures.</description>
-      <author>Notebookcheck.net</author>
-      <pubDate>Sat, 11 Apr 2026 18:27:00 GMT</pubDate>
-      <source url="https://www.notebookcheck.net/Dell-XPS-16-Core-Ultra-X7-358H-review-Out-with-Nvidia-in-with-Intel-Arc-B390.1264689.0.html">Notebookcheck.net</source>
-    </item>
-    <item>
-      <title>Crimson Desert officially receives Intel Arc GPU support and XeSS 3 compatibility 23 days after launch</title>
-      <link>https://www.tweaktown.com/news/110977/crimson-desert-officially-receives-intel-arc-gpu-support-and-xess-3-compatibility-23-days-after-launch/index.html</link>
-      <description>Pearl Abyss and its team have fixed yet another major launch-day flaw in Crimson Desert, bringing Intel Arc and handheld users into the fold.Continue reading at TweakTown</description>
-      <author>TweakTown</author>
-      <pubDate>Sat, 11 Apr 2026 17:02:02 GMT</pubDate>
-      <source url="https://www.tweaktown.com/news/110977/crimson-desert-officially-receives-intel-arc-gpu-support-and-xess-3-compatibility-23-days-after-launch/index.html">TweakTown</source>
     </item>
   </channel>
 </rss>
