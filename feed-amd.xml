@@ -5,96 +5,92 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques AMD</description>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 12:54:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 12:58:54 GMT</lastBuildDate>
     <item>
-      <title>Our experts review your astonishing PC builds and setups in Rig Rundown — from wall-mounted setups to a system packed inside of a 1:6 scale RC car</title>
-      <link>https://www.tomshardware.com/desktops/pc-building/our-experts-review-your-astonishing-pc-builds-and-setups-in-rig-rundown-from-wall-mounted-setups-to-a-system-packed-inside-of-a-1-6-scale-rc-car</link>
-      <description>We go through user-submitted PC builds and crown a winner in the inaugural Tom&apos;s Hardware Premium Rig Rundown results</description>
-      <author>Tom&apos;s Hardware UK</author>
-      <pubDate>Tue, 14 Apr 2026 12:38:00 GMT</pubDate>
-      <source url="https://www.tomshardware.com/desktops/pc-building/our-experts-review-your-astonishing-pc-builds-and-setups-in-rig-rundown-from-wall-mounted-setups-to-a-system-packed-inside-of-a-1-6-scale-rc-car">Tom&apos;s Hardware UK</source>
+      <title>Nvidia RTX 5060 Ti 8 GB review (Palit Dual)</title>
+      <link>https://www.pcgamer.com/hardware/graphics-cards/nvidia-rtx-5060-ti-8-gb-review-palit-dual/</link>
+      <description>A punchy little performer, but 8 GB of VRAM comes with caveats.</description>
+      <author>PC Gamer</author>
+      <pubDate>Wed, 15 Apr 2026 12:04:09 GMT</pubDate>
+      <source url="https://www.pcgamer.com/hardware/graphics-cards/nvidia-rtx-5060-ti-8-gb-review-palit-dual/">PC Gamer</source>
     </item>
     <item>
-      <title>Mesa 26.1 RADV Driver Merges Vulkan Descriptor Heap As Big Improvement For Steam Play</title>
-      <link>https://www.phoronix.com/news/RADV-Merges-Descriptor-Heap</link>
-      <description>As a big helper for Valve&apos;s Steam Play with DXVK and VKD3D-Proton, the Mesa Radeon Vulkan driver &quot;RADV&quot; has merged its initial support for the VK_EXT_descriptor_heap Vulkan extension...</description>
+      <title>ASUS Zenbook A16 vs. Zenbook S 16: Lots of similarities don&apos;t necessarily make for an easy choice, and it might come down to pricing and performance hardware</title>
+      <link>https://www.windowscentral.com/hardware/asus/asus-zenbook-a16-vs-zenbook-s-16</link>
+      <description>ASUS now has Zenbook A16 and Zenbook S 16 models on the market, and at first glance, they seem quite similar. But once you get inside, differences begin to appear. I&apos;ve put together this comparison based on our reviews of both laptops to help you make the rig…</description>
+      <author>Windows Central</author>
+      <pubDate>Wed, 15 Apr 2026 10:53:49 GMT</pubDate>
+      <source url="https://www.windowscentral.com/hardware/asus/asus-zenbook-a16-vs-zenbook-s-16">Windows Central</source>
+    </item>
+    <item>
+      <title>Compact and efficient: Geekom A5 Pro 2026 Edition mini PC with AMD Ryzen power review</title>
+      <link>https://www.notebookcheck.net/Compact-and-efficient-Geekom-A5-Pro-2026-Edition-mini-PC-with-AMD-Ryzen-power-review.1273318.0.html</link>
+      <description>Everyday hero in miniature. | The Geekom A5 Pro combines the Ryzen 5 7530U, the Radeon Vega 7, DDR4 RAM and an SSD - compact, suitable for everyday use and attractively priced. But how does the system compare to the competition and how efficiently does the mi…</description>
+      <author>Notebookcheck.net</author>
+      <pubDate>Wed, 15 Apr 2026 08:55:00 GMT</pubDate>
+      <source url="https://www.notebookcheck.net/Compact-and-efficient-Geekom-A5-Pro-2026-Edition-mini-PC-with-AMD-Ryzen-power-review.1273318.0.html">Notebookcheck.net</source>
+    </item>
+    <item>
+      <title>OneXPlayer Plans AMD Ryzen AI Max+ 395 Gaming Handheld With Detachable Controllers</title>
+      <link>https://www.madshrimps.be/news/onexplayer-plans-amd-ryzen-ai-max-395-gaming-handheld-with-detachable-controllers/</link>
+      <description>Shortly after announcing the OneXPlayer ONEXStation, powered by the AMD Ryzen AI Max+ 395 APU, OneXPlayer is apparently planning to launch the OneXPlayer X2 Mini, a new gaming handheld powered by the same powerful AMD Strix Halo APU with its Radeon 8060S iGPU…</description>
+      <author>Madshrimps.be</author>
+      <pubDate>Wed, 15 Apr 2026 04:26:32 GMT</pubDate>
+      <source url="https://www.madshrimps.be/news/onexplayer-plans-amd-ryzen-ai-max-395-gaming-handheld-with-detachable-controllers/">Madshrimps.be</source>
+    </item>
+    <item>
+      <title>Path of Exile 2 – Everything We Know About Grinding Gear’s Next-Gen ARPG</title>
+      <link>https://wccftech.com/roundup/path-of-exile-2-everything-we-know-about-grinding-gears-next-gen-arpg/</link>
+      <description>Path of Exile 2 is developer Grinding Gear Games&apos; self-dubbed &quot;next generation action RPG,&quot; and this round-up will take you through everything you need to know about the game between its early access launch, to 1.0, and beyond. After getting announced all the…</description>
+      <author>Wccftech</author>
+      <pubDate>Tue, 14 Apr 2026 19:58:57 GMT</pubDate>
+      <source url="https://wccftech.com/roundup/path-of-exile-2-everything-we-know-about-grinding-gears-next-gen-arpg/">Wccftech</source>
+    </item>
+    <item>
+      <title>ONEXPLAYER X2 Mini is a Ryzen AI Max+ 395 handheld gaming PC with detachable controllers</title>
+      <link>https://liliputing.com/onexplayer-x2-mini-is-a-ryzen-ai-max-395-handheld-gaming-pc-with-detachable-controllers/</link>
+      <description>The ONEXPLAYER X2 Mini is an upcoming handheld gaming PC with a feature list that’s too good to be… cheap. It has an 8.8 inch OLED display with support for variable refresh rates, detachable Bluetooth controllers that let you use the system like a game consol…</description>
+      <author>Liliputing</author>
+      <pubDate>Tue, 14 Apr 2026 19:52:14 GMT</pubDate>
+      <source url="https://liliputing.com/onexplayer-x2-mini-is-a-ryzen-ai-max-395-handheld-gaming-pc-with-detachable-controllers/">Liliputing</source>
+    </item>
+    <item>
+      <title>ACEMAGIC AM18 Mini PC: Ryzen 7 7840HS, 32GB DDR5, 1TB Gen4 SSD , USB4, 2x2.5G Lan, Type-C Power @ $549 + F/S</title>
+      <link>https://slickdeals.net/f/19420299-acemagic-am18-mini-pc-ryzen-7-7840hs-32gb-ddr5-1tb-gen4-ssd-usb4-2x2-5g-lan-type-c-power-549-f-s</link>
+      <description>Link: https://acemagic.com/products/ace...18-mini-pc
+
+Coupon: $40 OFF via ACEAM1840
+
+Spec:Windows 11
+Ryzen 7 7840HS 8C/16T 3.8 GHz (5.1 GHz Boost, 24MB Cache) /w 16 TOPS NPU
+AMD Radeon 780M Integrated</description>
+      <author>Slickdeals.net</author>
+      <pubDate>Tue, 14 Apr 2026 19:43:54 GMT</pubDate>
+      <source url="https://slickdeals.net/f/19420299-acemagic-am18-mini-pc-ryzen-7-7840hs-32gb-ddr5-1tb-gen4-ssd-usb4-2x2-5g-lan-type-c-power-549-f-s">Slickdeals.net</source>
+    </item>
+    <item>
+      <title>OneXPlayer Plans AMD Ryzen AI Max+ 395 Gaming Handheld With Detachable Controllers, 8.8-inch OLED Display</title>
+      <link>https://www.techpowerup.com/348225/onexplayer-plans-amd-ryzen-ai-max-395-gaming-handheld-with-detachable-controllers-8-8-inch-oled-display</link>
+      <description>Shortly after announcing the OneXPlayer ONEXStation, powered by the AMD Ryzen AI Max+ 395 APU, OneXPlayer is apparently planning to launch the OneXPlayer X2 Mini, a new gaming handheld powered by the same powerful AMD Strix Halo APU with its Radeon 8060S iGPU…</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 14 Apr 2026 18:11:27 GMT</pubDate>
+      <source url="https://www.techpowerup.com/348225/onexplayer-plans-amd-ryzen-ai-max-395-gaming-handheld-with-detachable-controllers-8-8-inch-oled-display">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>Ubuntu 26.04 Delivers Great Performance Improvements For AMD Strix Point, Especially For RDNA 3.5 Graphics</title>
+      <link>https://www.phoronix.com/review/ubuntu-2604-strix-point</link>
+      <description>As part of my ongoing testing around the upcoming Ubuntu 26.04 release I have been running a lot of benchmarks. After recently showing some nice performance gains for AMD Ryzen AI Max &quot;Strix Halo&quot; with Ubuntu 26.04, several Phoronix readers inquired about any…</description>
       <author>Phoronix</author>
-      <pubDate>Tue, 14 Apr 2026 12:23:08 GMT</pubDate>
-      <source url="https://www.phoronix.com/news/RADV-Merges-Descriptor-Heap">Phoronix</source>
+      <pubDate>Tue, 14 Apr 2026 17:22:37 GMT</pubDate>
+      <source url="https://www.phoronix.com/review/ubuntu-2604-strix-point">Phoronix</source>
     </item>
     <item>
-      <title>OneXPlayer Launches ONEXStation Mini AI, Featuring Ryzen AI Max+ 395 And Modern Connectivity</title>
-      <link>https://wccftech.com/onexplayer-launches-onexstation-mini-ai-pc/</link>
-      <description>Popular mini PC and eGPU maker has debuted its most powerful high-performance AI mini PC, powered by the flagship AMD Zen 5 mobile chip. OneXPlayer Debuts Ryzen AI Max+ 395-Powered ONEXStation Mini AI PC With Up To 128 GB Memory and 8 TB Storage Popular conso…</description>
-      <author>Wccftech</author>
-      <pubDate>Tue, 14 Apr 2026 11:30:05 GMT</pubDate>
-      <source url="https://wccftech.com/onexplayer-launches-onexstation-mini-ai-pc/">Wccftech</source>
-    </item>
-    <item>
-      <title>Intel Nova Lake Desktop CPUs Could Come With A Powerful GPU Variant To Tackle AMD APUs: 12 Next-Gen Xe3P Cores</title>
-      <link>https://wccftech.com/intel-nova-lake-desktop-cpus-powerful-gpu-tackle-amd-apus-12-next-gen-xe3p-cores/</link>
-      <description>Intel might be working on its most powerful iGPU for Desktops with the upcoming Nova Lake Desktop CPUs, tackling AMD&apos;s Ryzen APU dominance. Intel To Challenge AMD APUs with Its Own Powerful iGPU on Nova Lake Desktop CPUs Intel&apos;s Nova Lake CPUs were recently r…</description>
-      <author>Wccftech</author>
-      <pubDate>Tue, 14 Apr 2026 06:00:09 GMT</pubDate>
-      <source url="https://wccftech.com/intel-nova-lake-desktop-cpus-powerful-gpu-tackle-amd-apus-12-next-gen-xe3p-cores/">Wccftech</source>
-    </item>
-    <item>
-      <title>AMD Ryzen 5 9600X CPU + MSI MAG Coreliquid A13 240 Black AIO ARGB Liquid Cooler $185 + Free S&amp;H</title>
-      <link>https://slickdeals.net/f/19414134-amd-ryzen-5-9600x-cpu-msi-mag-coreliquid-a13-240-black-aio-argb-liquid-cooler-185-free-s-h</link>
-      <description>$185: AMD Ryzen 5 9600X 6-Core 3.9GHz, AM5, 65W, Radeon Graphics + MSI MAG Coreliquid A13 240 Black at Newegg 
- 
-$15 off w/ promo code *SSF5726*, limited offer 
- 
-Free Gift: MSI MAG Coreliquid A13...</description>
-      <author>Slickdeals.net</author>
-      <pubDate>Mon, 13 Apr 2026 22:55:12 GMT</pubDate>
-      <source url="https://slickdeals.net/f/19414134-amd-ryzen-5-9600x-cpu-msi-mag-coreliquid-a13-240-black-aio-argb-liquid-cooler-185-free-s-h">Slickdeals.net</source>
-    </item>
-    <item>
-      <title>Valve&apos;s VRAM Hack Could Save Millions of 8GB GPU Owners From Stutters</title>
-      <link>https://hothardware.com/news/valves-vram-hack-could-save-millions-of-8gb-gpu-owners-from-stutters</link>
-      <description>Valve engineer Natalie Vock found a GPU memory optimization for Linux that greatly improves memory handling on AMD GPUs. It&apos;s unclear how (if at all) the benefits could carry over to the upcoming Valve Steam Machine, which uses an AMD iGPU, but any memory opt…</description>
-      <author>Hot Hardware</author>
-      <pubDate>Mon, 13 Apr 2026 20:51:00 GMT</pubDate>
-      <source url="https://hothardware.com/news/valves-vram-hack-could-save-millions-of-8gb-gpu-owners-from-stutters">Hot Hardware</source>
-    </item>
-    <item>
-      <title>SAPPHIRE PULSE Radeon RX 9070 XT 16GB + Rosewill VMG 750W 80+ Gold + AMD CRIMSON DESERT GAME Bundle Gift $699.99</title>
-      <link>https://slickdeals.net/f/19415385-sapphire-pulse-radeon-rx-9070-xt-16gb-rosewill-vmg-750w-80-gold-amd-crimson-desert-game-bundle-gift-699-99</link>
-      <description>SAPPHIRE PULSE Radeon RX 9070 XT 16GB GDDR6 PCI Express 5.0 x16 ATX Graphics Card 11348-03-20G 
- 
-Rosewill VMG 750W 80+ Gold, ATX 3.0 &amp; 3.1 Compatible, Full Modular Low-Noise Power Supply, PCIe 5.1...</description>
-      <author>Slickdeals.net</author>
-      <pubDate>Mon, 13 Apr 2026 16:38:15 GMT</pubDate>
-      <source url="https://slickdeals.net/f/19415385-sapphire-pulse-radeon-rx-9070-xt-16gb-rosewill-vmg-750w-80-gold-amd-crimson-desert-game-bundle-gift-699-99">Slickdeals.net</source>
-    </item>
-    <item>
-      <title>Linux 7.1 Kernel Starts Enabling Intel FRED, Expands AMD GPU Defaults, And Dropping Of Intel 486 CPU Support</title>
-      <link>https://wccftech.com/linux-7-1-kernel-starts-enabling-intel-fred/</link>
-      <description>With Linux 7.1, the focus will be more on improving and optimizing modern architectures. Early Linux 7.1 Patches Reveal a Major Cleanup and Modern CPU Enablement, and Driver Improvements for AMD, Intel, and NVIDIA Hardware With the Linux 7.0 release, the merg…</description>
-      <author>Wccftech</author>
-      <pubDate>Mon, 13 Apr 2026 13:52:21 GMT</pubDate>
-      <source url="https://wccftech.com/linux-7-1-kernel-starts-enabling-intel-fred/">Wccftech</source>
-    </item>
-    <item>
-      <title>$185: AMD Ryzen 5 9600X 6-Core 3.9GHz, AM5, 65W, Radeon Graphics + MSI MAG Coreliquid A13 240 Black at Newegg</title>
-      <link>https://slickdeals.net/f/19414134-185-amd-ryzen-5-9600x-6-core-3-9ghz-am5-65w-radeon-graphics-msi-mag-coreliquid-a13-240-black-at-newegg</link>
-      <description>$185: AMD Ryzen 5 9600X 6-Core 3.9GHz, AM5, 65W, Radeon Graphics + MSI MAG Coreliquid A13 240 Black at Newegg
-
-$15 off w/ promo code SSF5726, limited offer
-
-Free Gift:  MSI MAG Coreliquid A13 240 Blac</description>
-      <author>Slickdeals.net</author>
-      <pubDate>Mon, 13 Apr 2026 12:06:17 GMT</pubDate>
-      <source url="https://slickdeals.net/f/19414134-185-amd-ryzen-5-9600x-6-core-3-9ghz-am5-65w-radeon-graphics-msi-mag-coreliquid-a13-240-black-at-newegg">Slickdeals.net</source>
-    </item>
-    <item>
-      <title>Linux kernel 7.0 is out now</title>
-      <link>https://www.gamingonlinux.com/2026/04/linux-kernel-7-0-is-out-now/.</link>
-      <description>The Linux kernel 7.0 has arrived and with it plenty of support for new hardware, lots of fixes and some new documents on AI code helpers.Read the full article on GamingOnLinux.</description>
-      <author>Gamingonlinux.com</author>
-      <pubDate>Mon, 13 Apr 2026 09:32:31 GMT</pubDate>
-      <source url="https://www.gamingonlinux.com/2026/04/linux-kernel-7-0-is-out-now/.">Gamingonlinux.com</source>
+      <title>Alienware Just Released the Least Expensive 27&quot; QHD 240Hz OLED Gaming Monitor I&apos;ve Ever Seen</title>
+      <link>https://www.ign.com/articles/alienware-just-released-the-least-expensive-27-qhd-240hz-oled-gaming-monitor-ever</link>
+      <description>Setting the bar for affordable OLED picture quality in PC gaming.</description>
+      <author>IGN</author>
+      <pubDate>Tue, 14 Apr 2026 16:30:00 GMT</pubDate>
+      <source url="https://www.ign.com/articles/alienware-just-released-the-least-expensive-27-qhd-240hz-oled-gaming-monitor-ever">IGN</source>
     </item>
   </channel>
 </rss>
