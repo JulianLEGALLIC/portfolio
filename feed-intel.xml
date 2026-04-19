@@ -5,7 +5,64 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques Intel</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 12:32:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 12:32:20 GMT</lastBuildDate>
+    <item>
+      <title>Intel Arc Graphics driver adds Pragmata support, fixes Crimson Desert issues</title>
+      <link>https://www.tweaktown.com/news/111103/intel-arc-graphics-driver-adds-pragmata-support-fixes-crimson-desert-issues/index.html</link>
+      <description>Intel Graphics Driver 32.0.101.8724 adds game support for Capcom&apos;s Pragmata, fixes corruption issues in Crimson Desert, and adds support for a new CPU.Continue reading at TweakTown</description>
+      <author>TweakTown</author>
+      <pubDate>Sat, 18 Apr 2026 11:33:04 GMT</pubDate>
+      <source url="https://www.tweaktown.com/news/111103/intel-arc-graphics-driver-adds-pragmata-support-fixes-crimson-desert-issues/index.html">TweakTown</source>
+    </item>
+    <item>
+      <title>“Crescent Island”はデータセンター・ワークステーション向けに限られる</title>
+      <link>https://northwood.blog.fc2.com/blog-entry-13063.html</link>
+      <description>Intel &quot;Crescent Island&quot; Xe3P to Skip Arc Gaming GPUs, Focus on Workstations（TechPowerUp）Intel Will Build Next-Gen Discrete GPUs, but will likely not make a Single One for Gamers（WCCF Tech）Crescent Island and Crescent Island Workstation.（Jaykihn@jaykihn0）“Cres…</description>
+      <author>Fc2.com</author>
+      <pubDate>Sat, 18 Apr 2026 03:31:04 GMT</pubDate>
+      <source url="https://northwood.blog.fc2.com/blog-entry-13063.html">Fc2.com</source>
+    </item>
+    <item>
+      <title>UGreen NASync iDX6011 Pro NAS review: An AI-powered NAS combines workstation-class hardware with genuinely useful local AI</title>
+      <link>https://www.techradar.com/computing/ugreen-nasync-idx6011-pro-nas-review</link>
+      <description>Powerful six-bay AI enhanced NAS featuring specifications that you’d usually see in a PC.</description>
+      <author>TechRadar</author>
+      <pubDate>Fri, 17 Apr 2026 21:15:00 GMT</pubDate>
+      <source url="https://www.techradar.com/computing/ugreen-nasync-idx6011-pro-nas-review">TechRadar</source>
+    </item>
+    <item>
+      <title>I Tested Qualcomm&apos;s Snapdragon X2 Elite Extreme: This 18-Core Power CPU Hits Hard Against AMD, Apple, Intel</title>
+      <link>https://uk.pcmag.com/laptops/164315/i-tested-qualcomm-snapdragon-x2-elite-extreme-18-core-power-hits-hard</link>
+      <description>Inside Asus’ featherweight Zenbook A16, Qualcomm&apos;s new flagship laptop chip flexes massive multi-core muscle, upgraded graphics, and real momentum against the competition. The benchmarks speak for themselves.
+With its 18-core loadout, the Snapdragon X2 Elite …</description>
+      <author>PCMag.com</author>
+      <pubDate>Fri, 17 Apr 2026 20:09:47 GMT</pubDate>
+      <source url="https://uk.pcmag.com/laptops/164315/i-tested-qualcomm-snapdragon-x2-elite-extreme-18-core-power-hits-hard">PCMag.com</source>
+    </item>
+    <item>
+      <title>UnifyDrive PixelMob– A palm-sized touchscreen, NVMe SSD storage device with verified backup</title>
+      <link>https://www.newsshooter.com/2026/04/17/unifydrive-pixelmob-a-palm-sized-touchscreen-nvme-ssd-storage-device-with-verified-backup/</link>
+      <description>UnifyDrive will debut PixelMob at NAB 2026, a new sub-brand purpose-built specifically for professional photographers and video creators. This is a separate product line from its existing NAS lineup. PixelMob is what UnifyDrive calls a “Creator’s Companion”, …</description>
+      <author>Newsshooter</author>
+      <pubDate>Fri, 17 Apr 2026 18:00:24 GMT</pubDate>
+      <source url="https://www.newsshooter.com/2026/04/17/unifydrive-pixelmob-a-palm-sized-touchscreen-nvme-ssd-storage-device-with-verified-backup/">Newsshooter</source>
+    </item>
+    <item>
+      <title>ASUS Zenbook DUO (2026) Review: One Laptop, Two Screens, All Business</title>
+      <link>https://www.yankodesign.com/2026/04/17/asus-zenbook-duo-2026-review-one-laptop-two-screens-all-business/</link>
+      <description>ASUS Zenbook DUO (2026) Review: One Laptop, Two Screens, All BusinessFor a time, it seemed that foldable and rollable screens would be the future of laptops, just as they are positioned to be where smartphones...</description>
+      <author>Yanko Design</author>
+      <pubDate>Fri, 17 Apr 2026 15:20:49 GMT</pubDate>
+      <source url="https://www.yankodesign.com/2026/04/17/asus-zenbook-duo-2026-review-one-laptop-two-screens-all-business/">Yanko Design</source>
+    </item>
+    <item>
+      <title>Intel Xe2 Lunar Lake Linux Graphics Performance Up ~17% Over Past Year</title>
+      <link>https://www.phoronix.com/review/ubuntu-2604-xe2-lunar-lake</link>
+      <description>Given the Ubuntu 26.04 LTS release being imminent and also realizing it&apos;s been nearly one year to the day since reviewing the Lenovo ThinkPad X1 Carbon Gen 13 Aura Edition laptop under Linux, I ran some fresh benchmarks for seeing how the integrated Xe2 graph…</description>
+      <author>Phoronix</author>
+      <pubDate>Fri, 17 Apr 2026 14:52:00 GMT</pubDate>
+      <source url="https://www.phoronix.com/review/ubuntu-2604-xe2-lunar-lake">Phoronix</source>
+    </item>
     <item>
       <title>Intel Arc GPU Graphics Drivers 101.8724 WHQL Released</title>
       <link>https://www.techpowerup.com/348304/intel-arc-gpu-graphics-drivers-101-8724-whql-released</link>
@@ -30,64 +87,6 @@ It’s maybe not quite on Requiem’s level of framerate abundance, and Prag…<
       <author>ZDNet</author>
       <pubDate>Thu, 16 Apr 2026 15:08:00 GMT</pubDate>
       <source url="https://www.zdnet.com/article/dell-xps-16-review/">ZDNet</source>
-    </item>
-    <item>
-      <title>Pragmata PC performance tested: 18 GPUs take us to the Moon</title>
-      <link>https://www.tomshardware.com/video-games/pc-gaming/pragmata-pc-performance-review</link>
-      <description>Capcom&apos;s Pragmata blends strategic gunplay and split-second puzzle solving for a fresh and fun adventure on the Moon. Oh, and everything is 3D printed. We tested 18 different GPUs for rasterization, ray tracing, and path-traced performance to find the best wa…</description>
-      <author>Tom&apos;s Hardware UK</author>
-      <pubDate>Thu, 16 Apr 2026 15:06:07 GMT</pubDate>
-      <source url="https://www.tomshardware.com/video-games/pc-gaming/pragmata-pc-performance-review">Tom&apos;s Hardware UK</source>
-    </item>
-    <item>
-      <title>I Tested Out Panasonic&apos;s New Rugged Toughbook 56...on an Aircraft Carrier</title>
-      <link>https://me.pcmag.com/en/laptops/36611/i-tested-out-panasonics-new-rugged-toughbook-56on-an-aircraft-carrier</link>
-      <description>Panasonic is celebrating 30 years of its rugged-laptop brand with the new Toughbook 56. I jetted over to a launch event aboard the USS Intrepid to see what&apos;s what. (Spoiler: Yep, it&apos;s still a bruiser, but it&apos;s really all about versatility and modularity.)
-Pan…</description>
-      <author>PCMag.com</author>
-      <pubDate>Thu, 16 Apr 2026 14:18:34 GMT</pubDate>
-      <source url="https://me.pcmag.com/en/laptops/36611/i-tested-out-panasonics-new-rugged-toughbook-56on-an-aircraft-carrier">PCMag.com</source>
-    </item>
-    <item>
-      <title>I Tested Out Panasonic&apos;s New Rugged Toughbook 56...on an Aircraft Carrier</title>
-      <link>https://uk.pcmag.com/laptops/164452/i-tested-out-panasonics-new-rugged-toughbook-56on-an-aircraft-carrier</link>
-      <description>Panasonic is celebrating 30 years of its rugged-laptop brand with the new Toughbook 56. I jetted over to a launch event aboard the USS Intrepid to see what&apos;s what. (Spoiler: Yep, it&apos;s still a bruiser, but it&apos;s really all about versatility and modularity.)
-Pan…</description>
-      <author>PCMag.com</author>
-      <pubDate>Thu, 16 Apr 2026 14:18:34 GMT</pubDate>
-      <source url="https://uk.pcmag.com/laptops/164452/i-tested-out-panasonics-new-rugged-toughbook-56on-an-aircraft-carrier">PCMag.com</source>
-    </item>
-    <item>
-      <title>FOSS Weekly #26.16: Kernel 7.0, Essential Terminal Tips, France Linux Move, New Age Verification Bill and More</title>
-      <link>https://itsfoss.com/newsletter/foss-weekly-26-16/</link>
-      <description>Some good news, some not so good news.</description>
-      <author>Itsfoss.com</author>
-      <pubDate>Thu, 16 Apr 2026 14:00:09 GMT</pubDate>
-      <source url="https://itsfoss.com/newsletter/foss-weekly-26-16/">Itsfoss.com</source>
-    </item>
-    <item>
-      <title>(PR) Panasonic Connect Launches the TOUGHBOOK 56</title>
-      <link>https://www.techpowerup.com/348273/panasonic-connect-launches-the-toughbook-56</link>
-      <description>Panasonic Connect North America, Division of Panasonic Corporation of North America, today launched the TOUGHBOOK 56, a powerful, modular rugged laptop purposefully built to empower mobile workers in sectors including public safety, utilities, enterprise and …</description>
-      <author>Techpowerup.com</author>
-      <pubDate>Thu, 16 Apr 2026 13:29:29 GMT</pubDate>
-      <source url="https://www.techpowerup.com/348273/panasonic-connect-launches-the-toughbook-56">Techpowerup.com</source>
-    </item>
-    <item>
-      <title>Crimson Desert Surges Past 5 Million Sales in Under a Month, Generating Strong 2026 Revenue</title>
-      <link>https://www.ibtimes.com.au/crimson-desert-surges-past-5-million-sales-under-month-generating-strong-2026-revenue-1866739</link>
-      <description>SEOUL, South Korea — Pearl Abyss&apos; ambitious open-world action-adventure game Crimson Desert has sold through more than 5 million copies worldwide just 26 days after its March 19 launch, marking one of the strongest debuts for a new single-player title in 2026…</description>
-      <author>Ibtimes.com.au</author>
-      <pubDate>Thu, 16 Apr 2026 12:38:36 GMT</pubDate>
-      <source url="https://www.ibtimes.com.au/crimson-desert-surges-past-5-million-sales-under-month-generating-strong-2026-revenue-1866739">Ibtimes.com.au</source>
-    </item>
-    <item>
-      <title>Intel &quot;Crescent Island&quot; Xe3P to Skip Arc Gaming GPUs, Focus on Workstations</title>
-      <link>https://www.techpowerup.com/348270/intel-crescent-island-xe3p-to-skip-arc-gaming-gpus-focus-on-workstations</link>
-      <description>Intel&apos;s upcoming &quot;Crescent Island&quot; series of GPUs, based on the newly developed Xe3P graphics IP, will be hitting the market this year. However, it seems this IP won&apos;t be featured in the desktop Arc gaming series of discrete GPUs. According to a reliable leak…</description>
-      <author>Techpowerup.com</author>
-      <pubDate>Thu, 16 Apr 2026 06:50:34 GMT</pubDate>
-      <source url="https://www.techpowerup.com/348270/intel-crescent-island-xe3p-to-skip-arc-gaming-gpus-focus-on-workstations">Techpowerup.com</source>
     </item>
   </channel>
 </rss>
