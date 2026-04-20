@@ -5,91 +5,86 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques NVIDIA</description>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 12:32:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 12:59:52 GMT</lastBuildDate>
     <item>
-      <title>The Relaunch of AMD Ryzen 5800X3D and NVIDIA RTX 3060 Shows Just How Bad It Is For PC Gamers In 2026</title>
-      <link>https://wccftech.com/relaunch-of-amd-ryzen-5800x3d-and-nvidia-rtx-3060-shows-2026-bad-for-pc-gamers/</link>
-      <description>It&apos;s disappointing to see where we are heading, but it appears that for PC hardware makers, nothing can save the current market except relaunching older hardware. The Relaunch of Ryzen 7 5800X3D and GeForce RTX 3060 is Close, but is it Really Something We Wan…</description>
+      <title>Redditor Snags A Sealed NVIDIA RTX 4060 Ti For Just $12 At A Goodwill Outlet, A Card That Normally Sells For $400</title>
+      <link>https://wccftech.com/redditor-snags-a-sealed-nvidia-rtx-4060-ti-for-just-12-at-a-goodwill-outlet-a-card-that-normally-sells-for-400/</link>
+      <description>This is why you shouldn&apos;t underestimate your local clearance store, as it can sometimes hide surprisingly valuable products for just a few bucks. Redditor Snags Sealed-Pack NVIDIA GeForce RTX 4060 Ti for Just 12 Bucks From a Local Goodwill Outlet Store Your l…</description>
       <author>Wccftech</author>
-      <pubDate>Sat, 18 Apr 2026 12:18:58 GMT</pubDate>
-      <source url="https://wccftech.com/relaunch-of-amd-ryzen-5800x3d-and-nvidia-rtx-3060-shows-2026-bad-for-pc-gamers/">Wccftech</source>
+      <pubDate>Sun, 19 Apr 2026 11:59:34 GMT</pubDate>
+      <source url="https://wccftech.com/redditor-snags-a-sealed-nvidia-rtx-4060-ti-for-just-12-at-a-goodwill-outlet-a-card-that-normally-sells-for-400/">Wccftech</source>
     </item>
     <item>
-      <title>Nvidia&apos;s once-tight bond with gamers is cracking over AI, &apos;and that breaks my heart&apos;</title>
-      <link>https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html</link>
-      <description>Gamers once helped save Nvidia from bankruptcy. Now they feel left behind as the memory crunch drives focus to AI chips and DLSS 5 disrupts game design.</description>
-      <author>CNBC</author>
-      <pubDate>Sat, 18 Apr 2026 12:00:01 GMT</pubDate>
-      <source url="https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html">CNBC</source>
+      <title>Asus Zenbook A16 Review: A True AI Laptop Among Artificial Imitators</title>
+      <link>https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/</link>
+      <description>The 16-inch laptop is also impossibly thin and light for its performance and screen size.</description>
+      <author>CNET</author>
+      <pubDate>Sun, 19 Apr 2026 11:00:39 GMT</pubDate>
+      <source url="https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/">CNET</source>
     </item>
     <item>
-      <title>Intel Core Ultra 250K Plus vs AMD Ryzen 5 9600X faceoff — battle for the best $200 CPU</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/intel-core-ultra-250k-plus-vs-amd-ryzen-5-9600x-faceoff</link>
-      <description>With similar pricing and target audiences, these two processors offer contrasting strengths across gaming, productivity, and power consumption.</description>
+      <title>NVIDIA’s 96GB RTX PRO 6000 Matches Four RTX 5090s on a 230B AI Model While Drawing a Quarter the Power</title>
+      <link>https://wccftech.com/nvidia-rtx-pro-6000-matches-four-rtx-5090s-on-230b-ai-model-draws-quarter-power/</link>
+      <description>NVIDIA RTX Pro 6000 Blackwell shows why single GPUs are better than mainstream Multi-GPU setups in running large AI models, even outpacing four RTX 5090s. A Single RTX PRO 6000 Blackwell GPU Runs 230B AI Model At Quarter The Power of Four RTX 5090s Steveibe o…</description>
+      <author>Wccftech</author>
+      <pubDate>Sun, 19 Apr 2026 07:40:04 GMT</pubDate>
+      <source url="https://wccftech.com/nvidia-rtx-pro-6000-matches-four-rtx-5090s-on-230b-ai-model-draws-quarter-power/">Wccftech</source>
+    </item>
+    <item>
+      <title>After testing this HP laptop, I get why its &apos;boring&apos; design is adored by business users</title>
+      <link>https://www.zdnet.com/article/hp-zbook-8-g1i-review/</link>
+      <description>HP&apos;s ZBook 8 G1i eschews a breezy build and marathon battery for a traditional business workstation approach.</description>
+      <author>ZDNet</author>
+      <pubDate>Sun, 19 Apr 2026 02:00:44 GMT</pubDate>
+      <source url="https://www.zdnet.com/article/hp-zbook-8-g1i-review/">ZDNet</source>
+    </item>
+    <item>
+      <title>You Really Should Replace These Popular GPUs In 2026</title>
+      <link>https://www.bgr.com/2146877/graphics-cards-you-need-to-replace-in-2026/</link>
+      <description>Prices are finally beginning to fade on several PC parts, but that also means several older Nvidia GPUs are being sunsetted in favor of newer RTX cards.</description>
+      <author>BGR</author>
+      <pubDate>Sun, 19 Apr 2026 01:47:00 GMT</pubDate>
+      <source url="https://www.bgr.com/2146877/graphics-cards-you-need-to-replace-in-2026/">BGR</source>
+    </item>
+    <item>
+      <title>neo-jax added to PyPI</title>
+      <link>https://pypi.org/project/neo-jax/</link>
+      <description>Neoclassical transport code for effective ripple and trapped-particle diagnostics in Boozer coordinates</description>
+      <author>Pypi.org</author>
+      <pubDate>Sat, 18 Apr 2026 17:00:14 GMT</pubDate>
+      <source url="https://pypi.org/project/neo-jax/">Pypi.org</source>
+    </item>
+    <item>
+      <title>Nvidia RTX 3060 comeback in 2026 could alleviate soaring GPU prices and memory shortages — rumored RTX 5050 9GB abruptly shelved amid speculation</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;id=181749804</link>
+      <description>If relaunched at the right price, the RTX 3060 could re-enter the market as a viable option in a segment facing increasing cost pressures.</description>
+      <author>Slashdot.org</author>
+      <pubDate>Sat, 18 Apr 2026 16:12:07 GMT</pubDate>
+      <source url="https://slashdot.org/firehose.pl?op=view&amp;id=181749804">Slashdot.org</source>
+    </item>
+    <item>
+      <title>Nvidia RTX 3060 comeback in 2026 could alleviate soaring GPU prices and memory shortages — rumored RTX 5050 9GB abruptly shelved amid speculation</title>
+      <link>https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-3060-comeback-in-2026-could-alleviate-soaring-gpu-prices-and-memory-shortages-rumored-rtx-5050-9gb-abruptly-shelved-amid-speculation</link>
+      <description>If relaunched at the right price, the RTX 3060 could re-enter the market as a viable option in a segment facing increasing cost pressures.</description>
       <author>Tom&apos;s Hardware UK</author>
-      <pubDate>Sat, 18 Apr 2026 12:00:00 GMT</pubDate>
-      <source url="https://www.tomshardware.com/pc-components/cpus/intel-core-ultra-250k-plus-vs-amd-ryzen-5-9600x-faceoff">Tom&apos;s Hardware UK</source>
+      <pubDate>Sat, 18 Apr 2026 15:53:44 GMT</pubDate>
+      <source url="https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-3060-comeback-in-2026-could-alleviate-soaring-gpu-prices-and-memory-shortages-rumored-rtx-5050-9gb-abruptly-shelved-amid-speculation">Tom&apos;s Hardware UK</source>
     </item>
     <item>
-      <title>Nvidia and PNY accused of warranty fraud after refusing to replace faulty $9,000 GPU</title>
-      <link>https://www.naturalnews.com/2026-04-18-nvidia-pny-accused-warranty-fraud-faulty-gpu.html</link>
-      <description>Mike Adams accuses Nvidia and PNY of refusing to honor a 3-year warranty for a defective $9,000 RTX Pro 6000 GPU, despite clear evidence of hardware failure (VRM/power bus defect). Nvidia demanded redundant documentation (receipts, photos, diagnostics) and tr…</description>
-      <author>Naturalnews.com</author>
-      <pubDate>Sat, 18 Apr 2026 06:00:00 GMT</pubDate>
-      <source url="https://www.naturalnews.com/2026-04-18-nvidia-pny-accused-warranty-fraud-faulty-gpu.html">Naturalnews.com</source>
-    </item>
-    <item>
-      <title>The real threat to the PC isn’t death. It’s losing control</title>
-      <link>https://www.pcworld.com/article/3116637/the-real-threat-to-the-pc-isnt-death-its-losing-control.html</link>
-      <description>A couple of months ago, I floated the idea of renting a PC. Specifically a Valve Steam Machine, in the hopes of getting the concept to take. I wanted it to live. But the problem with thought exercises is they can end up disconnected from the world.
-
-
-
-
-Recen…</description>
-      <author>PCWorld</author>
-      <pubDate>Fri, 17 Apr 2026 13:00:00 GMT</pubDate>
-      <source url="https://www.pcworld.com/article/3116637/the-real-threat-to-the-pc-isnt-death-its-losing-control.html">PCWorld</source>
-    </item>
-    <item>
-      <title>NVIDIA is reportedly bringing back the RTX 3060 12GB in June, as RTX 5050 9GB gets pushed back</title>
-      <link>https://www.tweaktown.com/news/111092/nvidia-is-reportedly-bringing-back-the-rtx-3060-12gb-in-june-as-rtx-5050-9gb-gets-pushed-back/index.html</link>
-      <description>The Ampere-based GPU offers more VRAM but misses out on NVIDIA&apos;s newer features, such as DLSS Frame Generation and Multi-Frame Generation.Continue reading at TweakTown</description>
-      <author>TweakTown</author>
-      <pubDate>Fri, 17 Apr 2026 12:32:05 GMT</pubDate>
-      <source url="https://www.tweaktown.com/news/111092/nvidia-is-reportedly-bringing-back-the-rtx-3060-12gb-in-june-as-rtx-5050-9gb-gets-pushed-back/index.html">TweakTown</source>
-    </item>
-    <item>
-      <title>The new Asus ROG Zephyrus G14 is doing a lot with its extra wattage, but I&apos;m bracing myself for the price tag</title>
-      <link>https://www.gamesradar.com/hardware/laptops/asus-rog-zephyrus-g14-2026-review/</link>
-      <description>I&apos;ve had the new Asus ROG Zephyrus G14 (2026) on my desk, and its performance boost keeps it firmly among the best rigs on the market.</description>
-      <author>GamesRadar+</author>
-      <pubDate>Fri, 17 Apr 2026 11:32:06 GMT</pubDate>
-      <source url="https://www.gamesradar.com/hardware/laptops/asus-rog-zephyrus-g14-2026-review/">GamesRadar+</source>
-    </item>
-    <item>
-      <title>Nvidia RTX 5070 spotted at rare MSRP price in Woot flash sale — move fast to secure a bargain, 38% off saves you $340</title>
-      <link>https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5070-spotted-at-rare-msrp-price-in-woot-flash-sale-move-fast-to-secure-a-bargain-38-percent-off-saves-you-usd340</link>
-      <description>Get an RTX 5070 for MSRP at Woot, now just $549.</description>
+      <title>Nvidia RTX 5070 Ti gaming laptop is on sale for 19% off — MSI&apos;s Vector 16 has a 144 Hz screen, and comes with Pragmata for free</title>
+      <link>https://www.tomshardware.com/laptops/gaming-laptops/nvidia-rtx-5070-ti-gaming-laptop-is-on-sale-for-19-percent-off-msis-vector-16-has-a-144-hz-screen-and-comes-with-pragmata-for-free</link>
+      <description>MSI has put its Vector 16 gaming laptop on sale for just $1,529 at Newegg, offering a solid discount for a beastly hardware combo. You get a Core Ultra 7 255HX paired with a 140W RTX 5070 Ti, 16GB of RAM, and a 512GB SSD, all of which are upgradeable. All tha…</description>
       <author>Tom&apos;s Hardware UK</author>
-      <pubDate>Fri, 17 Apr 2026 10:45:40 GMT</pubDate>
-      <source url="https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5070-spotted-at-rare-msrp-price-in-woot-flash-sale-move-fast-to-secure-a-bargain-38-percent-off-saves-you-usd340">Tom&apos;s Hardware UK</source>
+      <pubDate>Sat, 18 Apr 2026 15:41:40 GMT</pubDate>
+      <source url="https://www.tomshardware.com/laptops/gaming-laptops/nvidia-rtx-5070-ti-gaming-laptop-is-on-sale-for-19-percent-off-msis-vector-16-has-a-144-hz-screen-and-comes-with-pragmata-for-free">Tom&apos;s Hardware UK</source>
     </item>
     <item>
-      <title>Lenovo ThinkStation P3 Ultra SFF Gen 2 review: A massive workstation smashed inside a mini PC</title>
-      <link>https://www.techradar.com/pro/lenovo-thinkstation-p3-ultra-sff-gen-2-mini-pc-workstation-review</link>
-      <description>The Lenovo ThinkStation P3 Ultra SFF Gen 2 successfully crammed a full-size desktop into a compact chassis, but in doing so, the fan noise is quite impressive.</description>
-      <author>TechRadar</author>
-      <pubDate>Fri, 17 Apr 2026 10:20:30 GMT</pubDate>
-      <source url="https://www.techradar.com/pro/lenovo-thinkstation-p3-ultra-sff-gen-2-mini-pc-workstation-review">TechRadar</source>
-    </item>
-    <item>
-      <title>AMD Radeon RX 9060 XT 8 GB review (Asus Prime)</title>
-      <link>https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9060-xt-8-gb-review-asus-prime/</link>
-      <description>It&apos;s cheap, but there&apos;s still a price to pay.</description>
-      <author>PC Gamer</author>
-      <pubDate>Fri, 17 Apr 2026 09:52:42 GMT</pubDate>
-      <source url="https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9060-xt-8-gb-review-asus-prime/">PC Gamer</source>
+      <title>KTC M27T6S 27-inch QHD Mini LED gaming monitor review: Affordable, colorful, and bright</title>
+      <link>https://www.tomshardware.com/monitors/gaming-monitors/ktc-m27t6s-27-inch-qhd-mini-led-gaming-monitor-review</link>
+      <description>KTC delivers high brightness and saturated color from the M27T6S. It’s a 27-inch Mini LED QHD panel with 1,152 dimming zones and Quantum Dot wide gamut color. A 200 Hz refresh rate overclocks to 210 Hz, and it has Adaptive-Sync with HDR1000.</description>
+      <author>Tom&apos;s Hardware UK</author>
+      <pubDate>Sat, 18 Apr 2026 13:37:05 GMT</pubDate>
+      <source url="https://www.tomshardware.com/monitors/gaming-monitors/ktc-m27t6s-27-inch-qhd-mini-led-gaming-monitor-review">Tom&apos;s Hardware UK</source>
     </item>
   </channel>
 </rss>
