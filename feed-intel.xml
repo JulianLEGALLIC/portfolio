@@ -5,7 +5,66 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques Intel</description>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 12:54:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:55:15 GMT</lastBuildDate>
+    <item>
+      <title>The United States Is Repeating Its Silicon Mistake with Gallium Nitride</title>
+      <link>https://warontherocks.com/cogs-of-war/the-united-states-is-repeating-its-silicon-mistake-with-gallium-nitride/</link>
+      <description>China controls 99 percent of the world’s primary gallium, a critical mineral and semiconductor crucial for building the microchips of the future. In 2023, it placed export controls on gallium to retaliate against American restrictions on the export of advance…</description>
+      <author>War on the Rocks</author>
+      <pubDate>Tue, 21 Apr 2026 08:00:13 GMT</pubDate>
+      <source url="https://warontherocks.com/cogs-of-war/the-united-states-is-repeating-its-silicon-mistake-with-gallium-nitride/">War on the Rocks</source>
+    </item>
+    <item>
+      <title>Multi-frame generation could be coming to AMD GPUs, latest FSR update hints</title>
+      <link>https://www.tweaktown.com/news/111165/multi-frame-generation-could-be-coming-to-amd-gpus-latest-fsr-update-hints/index.html</link>
+      <description>If MFG does arrive, the question is which hardware will support it, and whether AMD will keep it exclusive to RDNA 4 or support older hardware too.Continue reading at TweakTown</description>
+      <author>TweakTown</author>
+      <pubDate>Tue, 21 Apr 2026 07:05:06 GMT</pubDate>
+      <source url="https://www.tweaktown.com/news/111165/multi-frame-generation-could-be-coming-to-amd-gpus-latest-fsr-update-hints/index.html">TweakTown</source>
+    </item>
+    <item>
+      <title>AMD va enfin rattraper NVIDIA et Intel sur la génération multi-images</title>
+      <link>https://www.tomshardware.fr/amd-va-enfin-rattraper-nvidia-et-intel-sur-la-generation-multi-images/</link>
+      <description>Rédige un article à partir de ceci, en français, sur un ton neutre et objectif, sans superlatifs, sans rien déformer, en adoptant un ton journalistique professionnel et en parlant comme un humain, pas comme une IA
+AMD FSR Multi-Frame Generation “MFG” Launch I…</description>
+      <author>Tomshardware.fr</author>
+      <pubDate>Tue, 21 Apr 2026 04:51:00 GMT</pubDate>
+      <source url="https://www.tomshardware.fr/amd-va-enfin-rattraper-nvidia-et-intel-sur-la-generation-multi-images/">Tomshardware.fr</source>
+    </item>
+    <item>
+      <title>This Apple doesn’t fall far from the tree: Tim Cook is leaving at a peak and John Ternus is exactly the right CEO for the AI era</title>
+      <link>https://fortune.com/2026/04/20/apple-ceo-tim-cook-john-ternus-succession-ai-model-handoff/</link>
+      <description>The market&apos;s muted reaction to Apple&apos;s leadership handoff is shortsighted. Cook&apos;s deliberate, Steve Jobs–approved succession puts Apple ahead of AI rivals.</description>
+      <author>Fortune</author>
+      <pubDate>Tue, 21 Apr 2026 01:05:31 GMT</pubDate>
+      <source url="https://fortune.com/2026/04/20/apple-ceo-tim-cook-john-ternus-succession-ai-model-handoff/">Fortune</source>
+    </item>
+    <item>
+      <title>AMD FSR Multi-Frame Generation “MFG” Launch Imminent, Early Support Lands In FidelityFX SDK</title>
+      <link>https://wccftech.com/amd-fsr-multi-frame-generation-mfg-launch-imminent/</link>
+      <description>AMD seems to be preparing its own Multi Frame-Generation &quot;MFG&quot; technology for FSR, as hinted at in the newest additions to the FidelityFX SDK. Soon, All Three GPU Vendors Will Have MFG &quot;Multi-Frame Generation&quot; Support As AMD&apos;s FSR Suite Sees A New Addition AM…</description>
+      <author>Wccftech</author>
+      <pubDate>Mon, 20 Apr 2026 16:50:10 GMT</pubDate>
+      <source url="https://wccftech.com/amd-fsr-multi-frame-generation-mfg-launch-imminent/">Wccftech</source>
+    </item>
+    <item>
+      <title>Intel Expected to Make PC Gaming Handheld Push at Computex</title>
+      <link>https://me.pcmag.com/en/processors/36665/intel-expected-to-make-pc-gaming-handheld-push-at-computex</link>
+      <description>Intel&apos;s Arc G3 and Arc G3 Extreme chips for PC gaming handhelds will reportedly pop up in Taipei.
+Expect Intel to reveal more details about its push into PC gaming handhelds at Computex in June, where the company plans to debut the custom Arc G3 and Arc G3 Ex…</description>
+      <author>PCMag.com</author>
+      <pubDate>Mon, 20 Apr 2026 16:35:43 GMT</pubDate>
+      <source url="https://me.pcmag.com/en/processors/36665/intel-expected-to-make-pc-gaming-handheld-push-at-computex">PCMag.com</source>
+    </item>
+    <item>
+      <title>Intel Expected to Make PC Gaming Handheld Push at Computex</title>
+      <link>https://uk.pcmag.com/processors/164506/intel-expected-to-make-pc-gaming-handheld-push-at-computex</link>
+      <description>Intel&apos;s Arc G3 and Arc G3 Extreme chips for PC gaming handhelds will reportedly pop up in Taipei.
+Expect Intel to reveal more details about its push into PC gaming handhelds at Computex in June, where the company plans to debut the custom Arc G3 and Arc G3 Ex…</description>
+      <author>PCMag.com</author>
+      <pubDate>Mon, 20 Apr 2026 16:35:43 GMT</pubDate>
+      <source url="https://uk.pcmag.com/processors/164506/intel-expected-to-make-pc-gaming-handheld-push-at-computex">PCMag.com</source>
+    </item>
     <item>
       <title>Intel Arc G3 and Arc G3 Extreme handhelds expected to debut at Computex - VideoCardz.com</title>
       <link>https://slashdot.org/firehose.pl?op=view&amp;id=181793566</link>
@@ -30,62 +89,6 @@ The post Chuwi unveils AuBox X mini PC appeared first on YugaTech | Philippines 
       <author>Yugatech.com</author>
       <pubDate>Mon, 20 Apr 2026 01:44:52 GMT</pubDate>
       <source url="https://www.yugatech.com/news/chuwi-unveils-aubox-x-mini-pc/">Yugatech.com</source>
-    </item>
-    <item>
-      <title>Cthulhu The Cosmic Abyss PC Performance Analysis &amp; Tuning Guide – How To Get Best Experience On PC</title>
-      <link>https://wccftech.com/how-to/cthulhu-the-cosmic-abyss-pc-performance-analysis-tuning-guide/</link>
-      <description>With PC games growing increasingly complex nowadays — especially ones built on Epic Games&apos;s infamous Unreal Engine 5 — default/maxed-out graphics settings rarely (if at all) strike the optimal balance between visual fidelity and performance that most PC gamer…</description>
-      <author>Wccftech</author>
-      <pubDate>Sun, 19 Apr 2026 20:20:48 GMT</pubDate>
-      <source url="https://wccftech.com/how-to/cthulhu-the-cosmic-abyss-pc-performance-analysis-tuning-guide/">Wccftech</source>
-    </item>
-    <item>
-      <title>UnifyDrive to Showcase Full NAS Lineup and Debut PixelMob Creator&apos;s Companion Prototype at NAB Show 2026</title>
-      <link>https://www.globenewswire.com/news-release/2026/04/19/3276660/0/en/UnifyDrive-to-Showcase-Full-NAS-Lineup-and-Debut-PixelMob-Creator-s-Companion-Prototype-at-NAB-Show-2026.html</link>
-      <description>Live demonstrations of PixelMob’s six-layer verified backup workflow will run throughout the show alongside hands-on access to all four UnifyDrive products Live demonstrations of PixelMob’s six-layer verified backup workflow will run throughout the show along…</description>
-      <author>GlobeNewswire</author>
-      <pubDate>Sun, 19 Apr 2026 17:00:00 GMT</pubDate>
-      <source url="https://www.globenewswire.com/news-release/2026/04/19/3276660/0/en/UnifyDrive-to-Showcase-Full-NAS-Lineup-and-Debut-PixelMob-Creator-s-Companion-Prototype-at-NAB-Show-2026.html">GlobeNewswire</source>
-    </item>
-    <item>
-      <title>Asus Zenbook A16 Review: A True AI Laptop Among Artificial Imitators</title>
-      <link>https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/</link>
-      <description>The 16-inch laptop is also impossibly thin and light for its performance and screen size.</description>
-      <author>CNET</author>
-      <pubDate>Sun, 19 Apr 2026 11:00:39 GMT</pubDate>
-      <source url="https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/">CNET</source>
-    </item>
-    <item>
-      <title>NY Giants 7-round mock draft: Dexter Lawrence trade shakes things up</title>
-      <link>https://www.bigblueview.com/new-york-giants-draft/159662/ny-giants-7-round-mock-draft-dexter-lawrence-trade-shakes-things-up</link>
-      <description>The Giants just entered a whole new world after trading Lawrence to the Bengals.</description>
-      <author>Big Blue View</author>
-      <pubDate>Sun, 19 Apr 2026 10:00:00 GMT</pubDate>
-      <source url="https://www.bigblueview.com/new-york-giants-draft/159662/ny-giants-7-round-mock-draft-dexter-lawrence-trade-shakes-things-up">Big Blue View</source>
-    </item>
-    <item>
-      <title>Intel Arc Graphics driver adds Pragmata support, fixes Crimson Desert issues</title>
-      <link>https://www.tweaktown.com/news/111103/intel-arc-graphics-driver-adds-pragmata-support-fixes-crimson-desert-issues/index.html</link>
-      <description>Intel Graphics Driver 32.0.101.8724 adds game support for Capcom&apos;s Pragmata, fixes corruption issues in Crimson Desert, and adds support for a new CPU.Continue reading at TweakTown</description>
-      <author>TweakTown</author>
-      <pubDate>Sat, 18 Apr 2026 11:33:04 GMT</pubDate>
-      <source url="https://www.tweaktown.com/news/111103/intel-arc-graphics-driver-adds-pragmata-support-fixes-crimson-desert-issues/index.html">TweakTown</source>
-    </item>
-    <item>
-      <title>“Crescent Island”はデータセンター・ワークステーション向けに限られる</title>
-      <link>https://northwood.blog.fc2.com/blog-entry-13063.html</link>
-      <description>Intel &quot;Crescent Island&quot; Xe3P to Skip Arc Gaming GPUs, Focus on Workstations（TechPowerUp）Intel Will Build Next-Gen Discrete GPUs, but will likely not make a Single One for Gamers（WCCF Tech）Crescent Island and Crescent Island Workstation.（Jaykihn@jaykihn0）“Cres…</description>
-      <author>Fc2.com</author>
-      <pubDate>Sat, 18 Apr 2026 03:31:04 GMT</pubDate>
-      <source url="https://northwood.blog.fc2.com/blog-entry-13063.html">Fc2.com</source>
-    </item>
-    <item>
-      <title>UGreen NASync iDX6011 Pro NAS review: An AI-powered NAS combines workstation-class hardware with genuinely useful local AI</title>
-      <link>https://www.techradar.com/computing/ugreen-nasync-idx6011-pro-nas-review</link>
-      <description>Powerful six-bay AI enhanced NAS featuring specifications that you’d usually see in a PC.</description>
-      <author>TechRadar</author>
-      <pubDate>Fri, 17 Apr 2026 21:15:00 GMT</pubDate>
-      <source url="https://www.techradar.com/computing/ugreen-nasync-idx6011-pro-nas-review">TechRadar</source>
     </item>
   </channel>
 </rss>

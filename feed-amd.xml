@@ -5,7 +5,72 @@
     <link>https://julianlegallic.github.io/veille%20techno.html</link>
     <description>Actualités cartes graphiques AMD</description>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 12:54:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:55:13 GMT</lastBuildDate>
+    <item>
+      <title>Best Gaming Laptops (2026): Razer, Asus, Dell, and More</title>
+      <link>https://www.wired.com/story/best-gaming-laptops/</link>
+      <description>You don&apos;t want any old gaming laptop. Here&apos;s my take on which to get based on hundreds of hours of testing.</description>
+      <author>Wired</author>
+      <pubDate>Tue, 21 Apr 2026 11:30:00 GMT</pubDate>
+      <source url="https://www.wired.com/story/best-gaming-laptops/">Wired</source>
+    </item>
+    <item>
+      <title>Recent Linux VRAM Management Improvements Resurrect 4 GB AMD Radeon RX 6500 XT for Some Games</title>
+      <link>https://www.madshrimps.be/news/recent-linux-vram-management-improvements-resurrect-4-gb-amd-radeon-rx-6500-xt-for-some-games/</link>
+      <description>Natalie Vock, a well-known Valve contractor and Linux graphics driver developer, recently debuted a new patch that enabled better VRAM management on Linux for GPUs with low VRAM. When we originally covered the set of kernel patches, we noted that it could cut…</description>
+      <author>Madshrimps.be</author>
+      <pubDate>Tue, 21 Apr 2026 07:51:57 GMT</pubDate>
+      <source url="https://www.madshrimps.be/news/recent-linux-vram-management-improvements-resurrect-4-gb-amd-radeon-rx-6500-xt-for-some-games/">Madshrimps.be</source>
+    </item>
+    <item>
+      <title>Maxon releases Redshift 2026.5</title>
+      <link>https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/</link>
+      <description>Check out the latest features in the production renderer, including support for Windows on ARM and hardware ray tracing on AMD GPUs.</description>
+      <author>Cgchannel.com</author>
+      <pubDate>Tue, 21 Apr 2026 07:27:56 GMT</pubDate>
+      <source url="https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/">Cgchannel.com</source>
+    </item>
+    <item>
+      <title>Multi-frame generation could be coming to AMD GPUs, latest FSR update hints</title>
+      <link>https://www.tweaktown.com/news/111165/multi-frame-generation-could-be-coming-to-amd-gpus-latest-fsr-update-hints/index.html</link>
+      <description>If MFG does arrive, the question is which hardware will support it, and whether AMD will keep it exclusive to RDNA 4 or support older hardware too.Continue reading at TweakTown</description>
+      <author>TweakTown</author>
+      <pubDate>Tue, 21 Apr 2026 07:05:06 GMT</pubDate>
+      <source url="https://www.tweaktown.com/news/111165/multi-frame-generation-could-be-coming-to-amd-gpus-latest-fsr-update-hints/index.html">TweakTown</source>
+    </item>
+    <item>
+      <title>Recent Linux VRAM Management Improvements Resurrect 4 GB AMD Radeon RX 6500 XT for Some Games</title>
+      <link>https://www.techpowerup.com/348377/recent-linux-vram-management-improvements-resurrect-4-gb-amd-radeon-rx-6500-xt-for-some-games</link>
+      <description>Natalie Vock, a well-known Valve contractor and Linux graphics driver developer, recently debuted a new patch that enabled better VRAM management on Linux for GPUs with low VRAM. When we originally covered the set of kernel patches, we noted that it could cut…</description>
+      <author>Techpowerup.com</author>
+      <pubDate>Tue, 21 Apr 2026 05:54:09 GMT</pubDate>
+      <source url="https://www.techpowerup.com/348377/recent-linux-vram-management-improvements-resurrect-4-gb-amd-radeon-rx-6500-xt-for-some-games">Techpowerup.com</source>
+    </item>
+    <item>
+      <title>AMD va enfin rattraper NVIDIA et Intel sur la génération multi-images</title>
+      <link>https://www.tomshardware.fr/amd-va-enfin-rattraper-nvidia-et-intel-sur-la-generation-multi-images/</link>
+      <description>Rédige un article à partir de ceci, en français, sur un ton neutre et objectif, sans superlatifs, sans rien déformer, en adoptant un ton journalistique professionnel et en parlant comme un humain, pas comme une IA
+AMD FSR Multi-Frame Generation “MFG” Launch I…</description>
+      <author>Tomshardware.fr</author>
+      <pubDate>Tue, 21 Apr 2026 04:51:00 GMT</pubDate>
+      <source url="https://www.tomshardware.fr/amd-va-enfin-rattraper-nvidia-et-intel-sur-la-generation-multi-images/">Tomshardware.fr</source>
+    </item>
+    <item>
+      <title>This Steam Machine Alternative Is Our First Glimpse of Console Gaming’s Future</title>
+      <link>https://gizmodo.com/playnix-steam-machine-alternative-first-glimpse-console-gaming-future-2000748579</link>
+      <description>The next console you buy may be far more PC-like, but you don&apos;t have to get it from Microsoft or Valve.</description>
+      <author>Gizmodo.com</author>
+      <pubDate>Mon, 20 Apr 2026 17:20:13 GMT</pubDate>
+      <source url="https://gizmodo.com/playnix-steam-machine-alternative-first-glimpse-console-gaming-future-2000748579">Gizmodo.com</source>
+    </item>
+    <item>
+      <title>AMD FSR Multi-Frame Generation “MFG” Launch Imminent, Early Support Lands In FidelityFX SDK</title>
+      <link>https://wccftech.com/amd-fsr-multi-frame-generation-mfg-launch-imminent/</link>
+      <description>AMD seems to be preparing its own Multi Frame-Generation &quot;MFG&quot; technology for FSR, as hinted at in the newest additions to the FidelityFX SDK. Soon, All Three GPU Vendors Will Have MFG &quot;Multi-Frame Generation&quot; Support As AMD&apos;s FSR Suite Sees A New Addition AM…</description>
+      <author>Wccftech</author>
+      <pubDate>Mon, 20 Apr 2026 16:50:10 GMT</pubDate>
+      <source url="https://wccftech.com/amd-fsr-multi-frame-generation-mfg-launch-imminent/">Wccftech</source>
+    </item>
     <item>
       <title>Tiny Budget PC Runs Cyberpunk 2077 at 60 FPS</title>
       <link>https://www.geeky-gadgets.com/budget-ryzen-7840u-mini-pc-review/</link>
@@ -21,76 +86,6 @@
       <author>Phoronix</author>
       <pubDate>Mon, 20 Apr 2026 10:12:48 GMT</pubDate>
       <source url="https://www.phoronix.com/news/Linux-7.1-Graphics-Drivers">Phoronix</source>
-    </item>
-    <item>
-      <title>Minisforum&apos;s N5 Max NAS with AMD Strix Halo APU and up to 200TB of storage will start shipping soon</title>
-      <link>https://www.tweaktown.com/news/111129/minisforums-n5-max-nas-with-amd-strix-halo-apu-and-up-to-200tb-of-storage-will-start-shipping-soon/index.html</link>
-      <description>Minisforum&apos;s N5 Max orders will open later this week, with the &apos;Strix Halo&apos; 64GB of RAM NAS set to launch with a price tag of $2,899.Continue reading at TweakTown</description>
-      <author>TweakTown</author>
-      <pubDate>Mon, 20 Apr 2026 04:26:06 GMT</pubDate>
-      <source url="https://www.tweaktown.com/news/111129/minisforums-n5-max-nas-with-amd-strix-halo-apu-and-up-to-200tb-of-storage-will-start-shipping-soon/index.html">TweakTown</source>
-    </item>
-    <item>
-      <title>Cthulhu The Cosmic Abyss PC Performance Analysis &amp; Tuning Guide – How To Get Best Experience On PC</title>
-      <link>https://wccftech.com/how-to/cthulhu-the-cosmic-abyss-pc-performance-analysis-tuning-guide/</link>
-      <description>With PC games growing increasingly complex nowadays — especially ones built on Epic Games&apos;s infamous Unreal Engine 5 — default/maxed-out graphics settings rarely (if at all) strike the optimal balance between visual fidelity and performance that most PC gamer…</description>
-      <author>Wccftech</author>
-      <pubDate>Sun, 19 Apr 2026 20:20:48 GMT</pubDate>
-      <source url="https://wccftech.com/how-to/cthulhu-the-cosmic-abyss-pc-performance-analysis-tuning-guide/">Wccftech</source>
-    </item>
-    <item>
-      <title>PowerSpec G532 Gaming PC: Ryzen 5 7500X3D, RX 9070XT (16GB), 16GB DDR5, 1TB SSD $1399.99 at Micro Center</title>
-      <link>https://slickdeals.net/f/19437078-powerspec-g532-gaming-pc-ryzen-5-7500x3d-rx-9070xt-16gb-16gb-ddr5-1tb-ssd-1399-99-at-micro-center</link>
-      <description>*Available In-Store Only;* In stock at all stores when posting. 
- 
-*SPECS:* 
-* AMD Ryzen 5 7500X3D (4.0GHz) Processor 
-* MSI PRO B850M-VC WiFi Motherboard 
-* 16GB DDR5-6000 RAM 
-* AMD Radeon RX 9070...</description>
-      <author>Slickdeals.net</author>
-      <pubDate>Sun, 19 Apr 2026 16:53:12 GMT</pubDate>
-      <source url="https://slickdeals.net/f/19437078-powerspec-g532-gaming-pc-ryzen-5-7500x3d-rx-9070xt-16gb-16gb-ddr5-1tb-ssd-1399-99-at-micro-center">Slickdeals.net</source>
-    </item>
-    <item>
-      <title>PowerColor Reaper AMD Radeon RX 9060 XT 16GB GDDR6 $419.99 AC</title>
-      <link>https://slickdeals.net/f/19436718-powercolor-reaper-amd-radeon-rx-9060-xt-16gb-gddr6-419-99-ac</link>
-      <description>Amazon.com [amazon.com] has PowerColor Reaper AMD Radeon RX 9060 XT 16GB GDDR6 with a $50 Dollar clip coupon for $419.99</description>
-      <author>Slickdeals.net</author>
-      <pubDate>Sun, 19 Apr 2026 15:01:52 GMT</pubDate>
-      <source url="https://slickdeals.net/f/19436718-powercolor-reaper-amd-radeon-rx-9060-xt-16gb-gddr6-419-99-ac">Slickdeals.net</source>
-    </item>
-    <item>
-      <title>EmuDeck&apos;s Playnix console is stealing the Steam Machine spotlight with a Ryzen 5 and RX 9060 XT 16GB</title>
-      <link>https://www.tweaktown.com/news/111119/emudecks-playnix-console-is-stealing-the-steam-machine-spotlight-with-a-ryzen-5-and-rx-9060-xt-16gb/index.html</link>
-      <description>The Playnix ships with an 8BitDo Ultimate 2 controller in the box and packs hardware that Valve&apos;s own Steam Machine will struggle to match.Continue reading at TweakTown</description>
-      <author>TweakTown</author>
-      <pubDate>Sun, 19 Apr 2026 14:47:05 GMT</pubDate>
-      <source url="https://www.tweaktown.com/news/111119/emudecks-playnix-console-is-stealing-the-steam-machine-spotlight-with-a-ryzen-5-and-rx-9060-xt-16gb/index.html">TweakTown</source>
-    </item>
-    <item>
-      <title>Valve Developer Further Improves Old AMD GPUs: HD 7870 XT Finally Working On Linux</title>
-      <link>https://www.phoronix.com/news/AMD-Harvested-GPUs-Linux</link>
-      <description>Timur Kristóf of Valve&apos;s Linux graphics driver team is the one that worked on improving the old AMD Radeon GCN 1.0/1.1 graphics card support by making AMDGPU driver improvements so it could become the default for these Southern Islands and Sea Islands GPUs ra…</description>
-      <author>Phoronix</author>
-      <pubDate>Sun, 19 Apr 2026 13:25:50 GMT</pubDate>
-      <source url="https://www.phoronix.com/news/AMD-Harvested-GPUs-Linux">Phoronix</source>
-    </item>
-    <item>
-      <title>Asus Zenbook A16 Review: A True AI Laptop Among Artificial Imitators</title>
-      <link>https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/</link>
-      <description>The 16-inch laptop is also impossibly thin and light for its performance and screen size.</description>
-      <author>CNET</author>
-      <pubDate>Sun, 19 Apr 2026 11:00:39 GMT</pubDate>
-      <source url="https://www.cnet.com/tech/computing/asus-zenbook-a16-2026-review-ai-laptop/">CNET</source>
-    </item>
-    <item>
-      <title>EmuDeck Built Its Own Steam Machine in an Xbox Series S Shell — Ryzen 5, RX 9060 XT, &amp; $1,000 of Valve-Beating Hardware</title>
-      <link>https://wccftech.com/emudeck-built-steam-machine-in-xbox-series-s-shell-ryzen-5-rx-9060-xt-16-gb-ram-linux/</link>
-      <description>EmuDeck developer has made their own Steam Machine, resembling an Xbox Series S console &amp; packs an AMD Ryzen CPU with an RX 9060 XT GPU. Steam Machine Capabilities In An Xbox Series S Design: EmuDeck&apos;s Playnix Console is Powered By Linux &amp; Packs AMD Ryzen CPU…</description>
-      <author>Wccftech</author>
-      <pubDate>Sun, 19 Apr 2026 08:45:09 GMT</pubDate>
-      <source url="https://wccftech.com/emudeck-built-steam-machine-in-xbox-series-s-shell-ryzen-5-rx-9060-xt-16-gb-ram-linux/">Wccftech</source>
     </item>
   </channel>
 </rss>
