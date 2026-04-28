@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Versions du Projet Lafleur — Julian Le Gallic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="../../index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="../../index.html#about">À propos</a></li>
+            <li><a href="../../index.html#projects">Projets</a></li>
+            <li><a href="../../CV.html">CV</a></li>
+            <li><a href="../../preuve-formation.html">Preuves</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>Versions du Projet Lafleur</h1>
+        <p class="lead">Fichiers des différentes versions du projet de développement web pour Lafleur.</p>
+
+        <section>
+          <h2>Fichiers HTML</h2>
+          <ul>
+            <li><a href="accueil.html" target="_blank">accueil.html</a> - Page d'accueil</li>
+            <li><a href="Bulbes.html" target="_blank">Bulbes.html</a> - Page Bulbes</li>
+            <li><a href="massifs.html" target="_blank">massifs.html</a> - Page Massifs</li>
+            <li><a href="Rosiers.html" target="_blank">Rosiers.html</a> - Page Rosiers</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Fichiers PHP</h2>
+          <ul>
+            <li><a href="contact.php" target="_blank">contact.php</a> - Page de contact</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Feuilles de style</h2>
+          <ul>
+            <li><a href="styles.css" target="_blank">styles.css</a> - Feuille de style principale</li>
+            <li><a href="stylesC.CSS" target="_blank">stylesC.CSS</a> - Feuille de style complémentaire</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../../script.js"></script>
+    <script>
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

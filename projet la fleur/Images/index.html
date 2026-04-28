@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Images du Projet Lafleur — Julian Le Gallic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="../../index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="../../index.html#about">À propos</a></li>
+            <li><a href="../../index.html#projects">Projets</a></li>
+            <li><a href="../../CV.html">CV</a></li>
+            <li><a href="../../preuve-formation.html">Preuves</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>Images du Projet Lafleur</h1>
+        <p class="lead">Galerie des images et captures d'écran du projet de développement de la présence en ligne pour Lafleur.</p>
+
+        <section>
+          <h2>Images des produits</h2>
+          <div class="preuve-gallery">
+            <figure class="preuve-image">
+              <img src="bulbes_begonia.jpg" data-full="bulbes_begonia.jpg" alt="Bulbes de bégonia" />
+              <figcaption>Bulbes de bégonia</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="bulbes_dahlia.jpg" data-full="bulbes_dahlia.jpg" alt="Bulbes de dahlia" />
+              <figcaption>Bulbes de dahlia</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="bulbes_glaieul.jpg" data-full="bulbes_glaieul.jpg" alt="Bulbes de glaïeul" />
+              <figcaption>Bulbes de glaïeul</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="rosiers_arbuste.jpg" data-full="rosiers_arbuste.jpg" alt="Rosières arbuste" />
+              <figcaption>Rosières arbuste</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="rosiers_gdefleur.jpg" data-full="rosiers_gdefleur.jpg" alt="Rosières grande fleur" />
+              <figcaption>Rosières grande fleur</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="rosiers_parfum.jpg" data-full="rosiers_parfum.jpg" alt="Rosières parfum" />
+              <figcaption>Rosières parfum</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="massif_marguerite.jpg" data-full="massif_marguerite.jpg" alt="Massif de marguerite" />
+              <figcaption>Massif de marguerite</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="massif_melange.jpg" data-full="massif_melange.jpg" alt="Massif mélange" />
+              <figcaption>Massif mélange</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="massif_pensee.jpg" data-full="massif_pensee.jpg" alt="Massif de pensée" />
+              <figcaption>Massif de pensée</figcaption>
+            </figure>
+            <figure class="preuve-image">
+              <img src="ACCUEIL.JPG" data-full="ACCUEIL.JPG" alt="Page d'accueil" />
+              <figcaption>Page d'accueil du site</figcaption>
+            </figure>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../../script.js"></script>
+    <script>
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
