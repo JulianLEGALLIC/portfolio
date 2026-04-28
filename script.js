@@ -140,6 +140,102 @@ window.addEventListener('load', () => {
   setInterval(loadRSSFeeds, 1000 * 60 * 5);
 });
 
+function setupImageLightbox(){
+  const overlay = document.createElement('div');
+  overlay.id = 'lightboxOverlay';
+  const img = document.createElement('img');
+  let currentScale = 1;
+  let currentTranslateX = 0;
+  let currentTranslateY = 0;
+  let lastTranslateX = 0;
+  let lastTranslateY = 0;
+  let isPanning = false;
+  let panStartX = 0;
+  let panStartY = 0;
+  overlay.appendChild(img);
+  overlay.addEventListener('click', event => {
+    if (event.target !== overlay) return;
+    overlay.classList.remove('active');
+    currentScale = 1;
+    currentTranslateX = 0;
+    currentTranslateY = 0;
+    lastTranslateX = 0;
+    lastTranslateY = 0;
+    img.style.transform = 'scale(1) translate(0px, 0px)';
+    overlay.classList.remove('grabbing');
+  });
+  overlay.addEventListener('wheel', e => {
+    if(!overlay.classList.contains('active')) return;
+    e.preventDefault();
+    const delta = e.deltaY < 0 ? 0.1 : -0.1;
+    currentScale = Math.min(3, Math.max(1, currentScale + delta));
+    img.style.transform = `scale(${currentScale}) translate(${currentTranslateX}px, ${currentTranslateY}px)`;
+    img.style.cursor = currentScale > 1 ? 'zoom-out' : 'zoom-in';
+  }, {passive: false});
+  
+  const updateLightboxTransform = () => {
+    img.style.transform = `scale(${currentScale}) translate(${currentTranslateX}px, ${currentTranslateY}px)`;
+  };
+
+  img.addEventListener('pointerdown', e => {
+    if(currentScale <= 1) return;
+    e.preventDefault();
+    isPanning = true;
+    panStartX = e.clientX;
+    panStartY = e.clientY;
+    overlay.classList.add('grabbing');
+    img.setPointerCapture(e.pointerId);
+  });
+
+  img.addEventListener('dragstart', e => e.preventDefault());
+
+  img.addEventListener('pointermove', e => {
+    if(!isPanning) return;
+    e.preventDefault();
+    const dx = e.clientX - panStartX;
+    const dy = e.clientY - panStartY;
+    currentTranslateX = lastTranslateX + dx / currentScale;
+    currentTranslateY = lastTranslateY + dy / currentScale;
+    updateLightboxTransform();
+  });
+
+  const finishPan = () => {
+    if(!isPanning) return;
+    isPanning = false;
+    lastTranslateX = currentTranslateX;
+    lastTranslateY = currentTranslateY;
+    overlay.classList.remove('grabbing');
+  };
+
+  img.addEventListener('pointerup', finishPan);
+  img.addEventListener('pointercancel', finishPan);
+  document.body.appendChild(overlay);
+
+  const targets = document.querySelectorAll('.preuve-image img, .preuve-gallery img');
+  targets.forEach(element => {
+    element.style.cursor = 'zoom-in';
+    element.addEventListener('click', () => {
+      const src = element.dataset.full || element.src;
+      const preloader = new Image();
+      preloader.onload = () => {
+        img.src = src;
+        img.alt = element.alt || '';
+        overlay.classList.add('active');
+        currentScale = 1;
+        currentTranslateX = 0;
+        currentTranslateY = 0;
+        lastTranslateX = 0;
+        lastTranslateY = 0;
+        updateLightboxTransform();
+        img.style.cursor = 'zoom-in';
+      };
+      preloader.src = src;
+    });
+  });
+}
+
+window.addEventListener('load', setupImageLightbox);
+
 
 /* ASCII background that follows the cursor */
 const asciiCanvas = document.getElementById('asciiCanvas');
