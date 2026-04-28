@@ -21,16 +21,17 @@ const GOOGLE_ALERTS = {
     category: 'NVIDIA',
     description: 'Actualités NVIDIA via Google Alerts',
     urls: [
-
       'https://www.google.fr/alerts/feeds/15955729447839907319/10025015555276546206',
+      'https://www.google.fr/alerts/feeds/00964746461469590449/10582942398840414184',
       'https://www.google.fr/alerts/feeds/15955729447839907319/17571464887161054714',
-      'https://www.google.fr/alerts/feeds/15955729447839907319/14237373615953816840',
       'https://www.google.fr/alerts/feeds/15955729447839907319/5930211667150726528',
-      'https://www.google.fr/alerts/feeds/15955729447839907319/519687823423872395',
       'https://www.google.fr/alerts/feeds/15955729447839907319/2797858628840067913',
       'https://www.google.fr/alerts/feeds/15955729447839907319/4288683417305133022',
-      'https://www.google.fr/alerts/feeds/15955729447839907319/10025015555276547675',
-      'https://www.google.fr/alerts/feeds/15955729447839907319/17099266174249803966'
+      'https://www.google.fr/alerts/feeds/00964746461469590449/3263555829346499355',
+      'https://www.google.fr/alerts/feeds/00964746461469590449/237982559140345274',
+      'https://www.google.fr/alerts/feeds/00964746461469590449/3228446202467721822',
+      'https://www.google.fr/alerts/feeds/15955729447839907319/10025015555276547675'
+      
     ]
   },
   amd: {
@@ -39,8 +40,12 @@ const GOOGLE_ALERTS = {
     category: 'AMD',
     description: 'Actualités AMD via Google Alerts',
     urls: [
+      'https://www.google.fr/alerts/feeds/15955729447839907319/5930211667150726528',
       'https://www.google.fr/alerts/feeds/15955729447839907319/17931349496702565194',
-      'https://www.google.fr/alerts/feeds/15955729447839907319/8800012594127565664'
+      'https://www.google.fr/alerts/feeds/15955729447839907319/8800012594127565664',
+      'https://www.google.fr/alerts/feeds/15955729447839907319/10025015555276546206',
+      'https://www.google.fr/alerts/feeds/15955729447839907319/17099266174249803966'
+            
     ]
   },
   intel: {
@@ -49,7 +54,9 @@ const GOOGLE_ALERTS = {
     category: 'Intel',
     description: 'Actualités Intel via Google Alerts',
     urls: [
-      'https://www.google.com/alerts/feeds/AAAAAAAAAAAA'
+      'https://www.google.fr/alerts/feeds/15955729447839907319/5930211667150726528',
+      'https://www.google.fr/alerts/feeds/15955729447839907319/14237373615953816840',
+      'https://www.google.fr/alerts/feeds/15955729447839907319/10025015555276546206'
     ]
   }
 };
