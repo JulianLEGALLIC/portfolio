@@ -65,6 +65,15 @@ body{
 .lead{color:var(--muted);margin-bottom:18px}
 .hero-image img{width:100%;max-width:280px;border-radius:12px;box-shadow:var(--shadow);display:block}
 
+.preuve-image,
+.preuve-gallery{margin-top:18px;margin-bottom:24px}
+.preuve-image img,
+.preuve-gallery img{width:100%;height:auto;max-width:560px;display:block;border-radius:12px;box-shadow:var(--shadow)}
+.preuve-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.preuve-gallery figure{margin:0;display:flex;flex-direction:column;gap:10px}
+.preuve-gallery figcaption,
+.preuve-image figcaption{font-size:0.95rem;color:var(--muted);line-height:1.4}
+
 .hero-cta{display:flex;gap:12px}
 .btn{display:inline-block;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid transparent}
 .btn.primary{background:var(--accent);color:#071021}
