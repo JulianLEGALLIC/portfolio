@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projet Lafleur — Julian Le Gallic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Aller au contenu</a>
+    <canvas id="asciiCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="../index.html" class="logo">Julian <span>Le Gallic</span></a>
+        </div>
+        <button id="navToggle" class="nav-toggle" aria-controls="primaryNav" aria-expanded="false">☰</button>
+        <nav id="primaryNav" class="primary-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="../index.html#about">À propos</a></li>
+            <li><a href="../index.html#projects">Projets</a></li>
+            <li><a href="../CV.html">CV</a></li>
+            <li><a href="../preuve-formation.html">Preuves</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      <article>
+        <h1>Projet Lafleur</h1>
+        <p class="lead">Développer la présence en ligne de l'organisation Lafleur, négociant en graines et bulbes de fleurs d'ornement.</p>
+
+        <section>
+          <h2>Documents du projet</h2>
+          <ul>
+            <li><a href="Lafleur V1.pdf" target="_blank">Lafleur V1.pdf</a> - Version PDF du projet</li>
+            <li><a href="Lafleur V1.docx" target="_blank">Lafleur V1.docx</a> - Version Word du projet</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Images</h2>
+          <p>Dossier contenant les captures d'écran et visuels du projet.</p>
+          <a href="Images/">Voir le dossier Images</a>
+        </section>
+
+        <section>
+          <h2>Versions</h2>
+          <p>Dossier contenant les différentes versions du projet.</p>
+          <a href="Versions1/">Voir le dossier Versions1</a>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year-page"></span> Julian Le Gallic</small>
+        <nav class="social">
+          <a href="https://github.com/JulianLEGALLIC">GitHub</a>
+          <a href="https://www.linkedin.com/in/julian-le-gallic-b8b59a32b/">LinkedIn</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+      const yearPage = document.getElementById('year-page');
+      if(yearPage) yearPage.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
